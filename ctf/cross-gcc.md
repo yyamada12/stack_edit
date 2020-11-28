@@ -12,6 +12,10 @@ root/progtoolroot
 /usr/local/cross-gcc494/bin 配下にobjdumpなどのツールが入っている
 例えば arm-elf用の toolは `ls /usr/local/cross-gcc494/bin/arm-elf*` 
 
+objdump なら
+```
+/usr/local/cross-gcc494/bin/arm-elf-objdump -d arm-elf.x | less
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5Nzc3Mjk2N119
+eyJoaXN0b3J5IjpbLTk0NzQyOTNdfQ==
 -->
