@@ -8,6 +8,9 @@ user/progtooluser
 root/progtoolroot
 
 
+## tool
+/usr/local/cross-gcc494/bin 配下にobjdumpなどのツールが入っている
+例えば arm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODYzMjc0MjhdfQ==
+eyJoaXN0b3J5IjpbMzQxMzYwMDk3XX0=
 -->
