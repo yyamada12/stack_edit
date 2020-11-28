@@ -22,7 +22,7 @@ objdump なら
 
 #### cross-gcc494-v1.0.tgz
 解凍すると、sample ディレクトリにいろんな関数が入っている
-
+これをディ椅子あ
 
 
 ## ARMのexploit例
@@ -57,6 +57,6 @@ _start:
 make arm-elf.bin すると arm-elf.binが生成される
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDYzNzc5NiwtMTYwNzI3NzY2Miw2Mz
-EyMTU1ODksLTk0NzQyOTNdfQ==
+eyJoaXN0b3J5IjpbLTY4Njc4MjgxNCwxMDc0NjM3Nzk2LC0xNj
+A3Mjc3NjYyLDYzMTIxNTU4OSwtOTQ3NDI5M119
 -->
