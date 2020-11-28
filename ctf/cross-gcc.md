@@ -23,8 +23,13 @@ objdump なら
 ## ARMのexploit例
 問題・解答例は以下に保管。 https://github.com/yyamada12/ctfs/tree/master/seccon2019final 
 
+ctfs/seccon2019final/solve/read-password/arm-elf.S
+
+```
+.org  0x1c10 - 16 - 256 - 4 - 28
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk3ODI3NzksNjMxMjE1NTg5LC05ND
-c0MjkzXX0=
+eyJoaXN0b3J5IjpbLTQ5NDczOTIwMyw2MzEyMTU1ODksLTk0Nz
+QyOTNdfQ==
 -->
