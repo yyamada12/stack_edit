@@ -49,7 +49,9 @@ _start:
 戻りアドレスを設定する (`_code`)
 
 
+make arm-elf.bin すると arm-elf.binが生成される
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwMTEyNjIzLDYzMTIxNTU4OSwtOTQ3ND
-I5M119
+eyJoaXN0b3J5IjpbLTE2MDcyNzc2NjIsNjMxMjE1NTg5LC05ND
+c0MjkzXX0=
 -->
