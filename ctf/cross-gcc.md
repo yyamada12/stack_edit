@@ -28,8 +28,26 @@ ctfs/seccon2019final/solve/read-password/arm-elf.S
 ```
 .org  0x1c10 - 16 - 256 - 4 - 28
 ```
+org: バイナリをここに配置してくださいという命令
+
+```
+_start:
+
+.long 0x61626364
+.long 0
+.long 0
+.long 0
+```
+16バイトはまず適当に埋める
+
+```
+.long 0 /* FP -> FP */
+.long 0x1c00 /* IP -> SP */
+.long _code /* LR -> PC */
+.long 0 /* PC -> discard */
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDczOTIwMyw2MzEyMTU1ODksLTk0Nz
+eyJoaXN0b3J5IjpbMTA2MTIwNzYwNiw2MzEyMTU1ODksLTk0Nz
 QyOTNdfQ==
 -->
