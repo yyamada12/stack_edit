@@ -11,6 +11,7 @@ root/progtoolroot
 
 
 ### tool
+
 /usr/local/cross-gcc494/bin 配下にobjdumpなどのツールが入っている
 例えば arm-elf用の toolは `ls /usr/local/cross-gcc494/bin/arm-elf*` 
 
@@ -18,6 +19,8 @@ objdump なら
 ```
 /usr/local/cross-gcc494/bin/arm-elf-objdump -d arm-elf.x | less
 ```
+
+
 
 
 ## ARMのexploit例
@@ -52,6 +55,6 @@ _start:
 make arm-elf.bin すると arm-elf.binが生成される
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDcyNzc2NjIsNjMxMjE1NTg5LC05ND
-c0MjkzXX0=
+eyJoaXN0b3J5IjpbMzI0ODU1ODI0LC0xNjA3Mjc3NjYyLDYzMT
+IxNTU4OSwtOTQ3NDI5M119
 -->
