@@ -20,6 +20,8 @@ objdump なら
 /usr/local/cross-gcc494/bin/arm-elf-objdump -d arm-elf.x | less
 ```
 
+#### cross-gcc494-v1.0.tgz
+解凍すると、sample ディレクトリにいろんな関数が入っている
 
 
 
@@ -55,6 +57,6 @@ _start:
 make arm-elf.bin すると arm-elf.binが生成される
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0ODU1ODI0LC0xNjA3Mjc3NjYyLDYzMT
-IxNTU4OSwtOTQ3NDI5M119
+eyJoaXN0b3J5IjpbMTA3NDYzNzc5NiwtMTYwNzI3NzY2Miw2Mz
+EyMTU1ODksLTk0NzQyOTNdfQ==
 -->
