@@ -21,7 +21,8 @@ objdump なら
 
 
 ## ARMのexploit例
-
+も
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMjE1NTg5LC05NDc0MjkzXX0=
+eyJoaXN0b3J5IjpbLTEzMjA2MDcyODMsNjMxMjE1NTg5LC05ND
+c0MjkzXX0=
 -->
