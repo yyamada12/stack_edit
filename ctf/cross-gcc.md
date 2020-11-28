@@ -21,8 +21,10 @@ objdump なら
 
 
 ## ARMのexploit例
-も
+問題・解答例は以下に保管。 https://github.com/yyamada12/ctfs/tree/master/seccon2019final 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA2MDcyODMsNjMxMjE1NTg5LC05ND
+eyJoaXN0b3J5IjpbLTExMjk3ODI3NzksNjMxMjE1NTg5LC05ND
 c0MjkzXX0=
 -->
