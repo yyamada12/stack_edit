@@ -46,8 +46,10 @@ _start:
 .long _code /* LR -> PC */
 .long 0 /* PC -> discard */
 ```
+戻りアドレスを設定する (`_code`)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTIwNzYwNiw2MzEyMTU1ODksLTk0Nz
-QyOTNdfQ==
+eyJoaXN0b3J5IjpbMjYwMTEyNjIzLDYzMTIxNTU4OSwtOTQ3ND
+I5M119
 -->
