@@ -3,7 +3,8 @@
 ### バイナリログ
 
 前提: InnoDBはトランザクションあり。MyISAMはトランザクションなし
-InnoDB
+InnoDBにはinnodbログというトランザクションログ(REDOログ)がある。
+MySQLとしては
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDYyMjMwXX0=
+eyJoaXN0b3J5IjpbLTYyNDg2NTU0N119
 -->
