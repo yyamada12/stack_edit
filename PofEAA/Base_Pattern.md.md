@@ -6,7 +6,8 @@
 ### GatewayとMapperの違い
 Gatewayは、外部システムはGatewayに依存していない(知らない) が、 内部側のシステムはGatewayを知っており、呼び出しを実行する。
 例えば、テーブルモジュールはテーブルデータケートウェイを呼び出して、自身にデータを読み込む。
-一方でMapperは、やり取りするそう
+一方でMapperは、やり取りする双方のオブジェクトが、Mapperに依存しない(知らない)。
+例えば、Domain Model では、 DataMapperによってデータがDomain Modelに読み込まれるが、Domain Model 自体は DataMapperを意識しない (知らない)。知っていればそれはActive  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTc2MzU1MV19
+eyJoaXN0b3J5IjpbNTQ2NjQyMjE3XX0=
 -->
