@@ -14,7 +14,7 @@
 
   
 
-# Data Source Architectural
+## Data Source Architectural
 
 - Table Data Gateway
 
@@ -26,7 +26,7 @@
 
   
 
-# Object-Relational Behavioral
+## Object-Relational Behavioral
 
 - Unit of Work
 
@@ -36,7 +36,7 @@
 
   
 
-# Object-Relational Structural
+## Object-Relational Structural
 
   
 
@@ -48,5 +48,5 @@
 
 - DependentMapping
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzY3MzA0N119
+eyJoaXN0b3J5IjpbLTU3NjA1MDYwMF19
 -->
