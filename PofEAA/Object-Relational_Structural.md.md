@@ -30,6 +30,9 @@ DB内の関連とオブジェクトが持つコレクションを比較し、DB�
 class Album {
   private Artist artist;
 }
+
+- 依存マッピング
+  - 親のフィールドに子のオブジェクトをコレクションでほs 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzOTE5NjYyMywtMTkwMDA2NzM4Nl19
+eyJoaXN0b3J5IjpbMTc1NTI1MzE4OSwtMTkwMDA2NzM4Nl19
 -->
