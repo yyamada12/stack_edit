@@ -10,7 +10,9 @@ Gatewayは、外部システムはGatewayに依存していない(知らない) 
 例えば、Domain Model では、 DataMapperによってデータがDomain Modelに読み込まれるが、Domain Model 自体は DataMapperを意識しない (知らない)。知っていればそれはActive Record である。
 
 ### GOFデザインパターンとの関係
-PofEAAでは、GatewayパターンをFacade, 
+PofEAAでは、GatewayパターンをFacade, Adaptor, Mediator それぞれと別のパターンとしている。(18.1.2)
+また、Mapperも Mediator とは別のパターンとしている。(18.2)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzI0MzE1MF19
+eyJoaXN0b3J5IjpbMjA0MDQ4NDcxM119
 -->
