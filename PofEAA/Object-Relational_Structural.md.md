@@ -12,6 +12,7 @@
 ### 1対多の場合
 外部キーマッピングと依存マッピングから選択する
 
+親オブジェクトは、子オブジェクトをこれく
 
 
 - 外部キーマッピング
@@ -21,6 +22,5 @@ class Album {
   private Artist artist;
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU3NzcwOTgsLTE5MDAwNjczODZdfQ
-==
+eyJoaXN0b3J5IjpbMTgzMTEzMzkzMiwtMTkwMDA2NzM4Nl19
 -->
