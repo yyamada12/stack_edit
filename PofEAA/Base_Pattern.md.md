@@ -11,8 +11,11 @@ Gatewayは、外部システムはGatewayに依存していない(知らない) 
 
 ### GOFデザインパターンとの関係
 PofEAAでは、GatewayパターンをFacade, Adaptor, Mediator それぞれと別のパターンとしている。(18.1.2)
-また、Mapperも Mediator とは別のパターンとしている。(18.2)
+また、Mapperも Mediator とは別のパターンとしている。(18.2.2)
 
+### Repositoryは？
+Repository は Gatewayの一部と考えて良さそう。
+データソースに対するGatewayをRepositoryと
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDQ4NDcxM119
+eyJoaXN0b3J5IjpbLTE4NjQ2NzgwODZdfQ==
 -->
