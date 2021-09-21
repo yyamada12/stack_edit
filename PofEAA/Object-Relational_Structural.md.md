@@ -10,10 +10,11 @@
 テーブル間の1対多、多対多の関係をオブジェクトでどのように表現するかという話
 
 - 外部キーマッピング
-RDB内の表現と同じく、子のフィールドに親のオブジェクトを持つという構成。
-
+  - RDB内の表現と同じく、子のフィールドに親のオブジェクトを持つという構成。
+  - 
 class Album {
-  private Artist artis
+  private Artist artist;
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwOTQ1MzIyXX0=
+eyJoaXN0b3J5IjpbLTE5MDAwNjczODZdfQ==
 -->
