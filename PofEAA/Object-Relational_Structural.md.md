@@ -38,9 +38,10 @@ class Album {
   - 子のオブジェクトが一つの親だけに参照される場合のみ適用可能。
 
 ### 多対多の場合
-この場合、関連テーブルマッピングでしかあら
+この場合、関連テーブルマッピングでしか選択肢がない。
+1対多では外部キーマッピングより関連テーブルマッピングを選ぶメリットがない
 - 関連テーブルマッピング
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzA4ODQ4NiwtMTkwMDA2NzM4Nl19
+eyJoaXN0b3J5IjpbMTE1NjU2NjEzLC0xOTAwMDY3Mzg2XX0=
 -->
