@@ -34,7 +34,13 @@ class Album {
 
 - 依存マッピング
   - 親のフィールドに子のオブジェクトをコレクションで保持するという構成。
-  -  
+  -  親のオブジェクト側で子のオブジェクトも一緒にマッピングを実施する
+  - 子のオブジェクトが一つの親だけに参照される場合のみ適用可能。
+
+### 多対多の場合
+この場合、関連テーブルマッピングでしかあら
+- 関連テーブルマッピング
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTQ5NDQ3OCwtMTkwMDA2NzM4Nl19
+eyJoaXN0b3J5IjpbMTk0MzA4ODQ4NiwtMTkwMDA2NzM4Nl19
 -->
