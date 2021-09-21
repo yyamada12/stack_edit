@@ -26,7 +26,8 @@ DB内の関連とオブジェクトが持つコレクションを比較し、DB�
 
 - 外部キーマッピング
   - RDB内の表現と同じく、子のフィールドに親のオブジェクトを持つという構成。
-  - 親のフィールドに子のオブジェクトの
+  - 親のフィールドに子のオブジェクトのコレクションを持つ場合(12.2.5)と、持たない場合(12.2.3, 12.2.4)がある。
+  - いずれの場合も、子のオブジェクト側でマッピングを実施する
 class Album {
   private Artist artist;
 }
@@ -35,5 +36,5 @@ class Album {
   - 親のフィールドに子のオブジェクトをコレクションで保持するという構成。
   -  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU4NTEwMiwtMTkwMDA2NzM4Nl19
+eyJoaXN0b3J5IjpbMTE5OTQ5NDQ3OCwtMTkwMDA2NzM4Nl19
 -->
