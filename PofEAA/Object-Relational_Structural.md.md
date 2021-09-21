@@ -7,7 +7,13 @@
 的なことがメインで書いてある
 
 ## マッピング
-テーブル間の1対多、多対多の関係をオブジェクトでどのように
+テーブル間の1対多、多対多の関係をオブジェクトでどのように表現するかという話
+
+- 外部キーマッピング
+RDB内の表現と同じく、子のフィールドに親のオブジェクトを持つという構成。
+
+class Album {
+  private Artist artis
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Mzc2NTI1OV19
+eyJoaXN0b3J5IjpbNTIwOTQ1MzIyXX0=
 -->
