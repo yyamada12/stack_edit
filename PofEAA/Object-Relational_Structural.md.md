@@ -10,6 +10,9 @@
 テーブル間の1対多、多対多の関係をオブジェクトでどのように表現するかという話
 
 ### 1対多の場合
+外部キーマッピングと依存マッピングから選択する
+
+
 
 - 外部キーマッピング
   - RDB内の表現と同じく、子のフィールドに親のオブジェクトを持つという構成。
@@ -18,5 +21,6 @@ class Album {
   private Artist artist;
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTIxNzU4NCwtMTkwMDA2NzM4Nl19
+eyJoaXN0b3J5IjpbLTEzMjU3NzcwOTgsLTE5MDAwNjczODZdfQ
+==
 -->
