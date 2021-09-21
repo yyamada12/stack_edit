@@ -12,7 +12,11 @@
 ### 1対多の場合
 外部キーマッピングと依存マッピングから選択する
 
-親オブジェクトは、子オブジェクトをこれく
+親オブジェクトは、子オブジェクトをコレクションで保持することになるが、そのコレクションの更新をDBに反映する部分が複雑となる。
+(12.2.1節で議論されている)
+方法は
+1. まずDBのデータを全て削除し、その後コレクション内のデータを全て挿入する
+2. 
 
 
 - 外部キーマッピング
@@ -22,5 +26,5 @@ class Album {
   private Artist artist;
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTEzMzkzMiwtMTkwMDA2NzM4Nl19
+eyJoaXN0b3J5IjpbMTgyMDc1MDE2LC0xOTAwMDY3Mzg2XX0=
 -->
