@@ -14,7 +14,7 @@
 
 親オブジェクトは、子オブジェクトをコレクションで保持することになるが、そのコレクションの更新をDBに反映する部分が複雑となる。
 (12.2.1節で議論されている)
-方法としては以下の3通りから選択す
+方法としては以下の3通りから選択する。
 (1) 削除と挿入
 まずDBのデータを全て削除し、その後コレクション内のデータを全て挿入する 
 → 依存マッピングの場合に可能
@@ -31,6 +31,5 @@ class Album {
   private Artist artist;
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY1NzM0NjQsLTE5MDAwNjczODZdfQ
-==
+eyJoaXN0b3J5IjpbLTYzOTE5NjYyMywtMTkwMDA2NzM4Nl19
 -->
