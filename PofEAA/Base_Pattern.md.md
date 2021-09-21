@@ -15,7 +15,9 @@ PofEAAでは、GatewayパターンをFacade, Adaptor, Mediator それぞれと�
 
 ### Repositoryは？
 Repository は Gatewayの一部と考えて良さそう。
-データソースに対するGatewayをRepositoryと
+データストアに対するGatewayをRepositoryと呼ぶ。
+
+https://medium.com/@jonathanloscalzo/perhaps-gateway-and-repository-do-not-mean-the-same-according-to-fowler-7a4367a6d631
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ2NzgwODZdfQ==
+eyJoaXN0b3J5IjpbMTc4MjU3MTMzOV19
 -->
