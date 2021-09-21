@@ -41,9 +41,10 @@ class Album {
 この場合、関連テーブルマッピングでしか選択肢がない。
 1対多では外部キーマッピングより関連テーブルマッピングを選ぶメリットがない
 - 関連テーブルマッピング
--   
+  -  親のフィールドに子のオブジェクトのコレクションを持ち、親のload時にい子のオブジェクトもloadする。
+  -  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDgxMTM0NDAsMTE1NjU2NjEzLC0xOT
-AwMDY3Mzg2XX0=
+eyJoaXN0b3J5IjpbMTY0NTg1NzA1MSwxMTU2NTY2MTMsLTE5MD
+AwNjczODZdfQ==
 -->
