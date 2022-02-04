@@ -80,7 +80,7 @@ https://www.stemlynsblog.org/a-decade-of-education-theory-the-rise-and-rise-of-c
 
   
 
-エンハンスちストリームがあって、
+エンハンスチームとして、ストリームアラインドチームがあって、
 
 プラットフォームとして、CI基盤、CD基盤などがある
 
@@ -114,7 +114,6 @@ https://www.stemlynsblog.org/a-decade-of-education-theory-the-rise-and-rise-of-c
 
 3. やりとりの種類にも3タイプを定義し、適切なやりとり方法を選択させる
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2NDIyOTIxXX0=
+eyJoaXN0b3J5IjpbLTEzODI2NDU1NTFdfQ==
 -->
