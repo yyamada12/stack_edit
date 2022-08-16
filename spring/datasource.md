@@ -6,7 +6,7 @@ https://spring.pleiades.io/spring-boot/docs/current/reference/html/howto.html#ho
 1. DataSourceProperties に対して @ConfigurationProperties を利用して application.yml の設定値を適用
 2. 上記の properties から、 DataSource を生成
 
-
+というのが良さそうな組み合わせ
 
 ```
 properties.initializeDataSourceBuilder().type(HikariDataSource.class).build();
@@ -21,5 +21,5 @@ https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spr
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNjkwNzIyLDQ4NjkyMTY0MF19
+eyJoaXN0b3J5IjpbLTcxMDM3ODI4NCw0ODY5MjE2NDBdfQ==
 -->
