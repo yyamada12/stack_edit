@@ -64,7 +64,10 @@ spring bootの依存関係管理のためのプラグイン
 バージョンを管理しているライブラリの具体的なバージョンを知りたいときは下記レポジトリを参照すれば良い
 https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spring-boot-dependencies/build.gradle
 
-
+### plugin.spring プラグイン
+```
+kotlin("plugin.spring") version "1.6.21"
+```
 
 ## kotlin DSL
 
@@ -112,7 +115,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEzMTE2NDcsMTQ5Mzg5ODIzNSwtMT
-c2MDIxMjQxOSwtMTkyMDcyNDc4MywtMTE2NTU4NTQzLC0yMDMx
-ODA0NDI4LC05ODYwMjI1MzFdfQ==
+eyJoaXN0b3J5IjpbLTc1OTkxMDQwMywxNDkzODk4MjM1LC0xNz
+YwMjEyNDE5LC0xOTIwNzI0NzgzLC0xMTY1NTg1NDMsLTIwMzE4
+MDQ0MjgsLTk4NjAyMjUzMV19
 -->
