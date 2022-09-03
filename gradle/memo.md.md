@@ -37,7 +37,7 @@ plugins {
 ### spring boot プラグイン
 ```
 plugins {
-  kotlin("jvm")
+  id("org.springframework.boot") version "2.7.0"
 }
 ```
 [ソースコード](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin)
@@ -51,7 +51,7 @@ plugins {
 
 ### spring boot dependency management プラグイン
 
-
+id("io.spring.dependency-management") version "1.0.11.RELEASE"
 
 
 ## kotlin DSL
@@ -100,7 +100,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAyNzkwOTIsMTQ5Mzg5ODIzNSwtMT
-c2MDIxMjQxOSwtMTkyMDcyNDc4MywtMTE2NTU4NTQzLC0yMDMx
-ODA0NDI4LC05ODYwMjI1MzFdfQ==
+eyJoaXN0b3J5IjpbOTYzNTc1NDg1LDE0OTM4OTgyMzUsLTE3Nj
+AyMTI0MTksLTE5MjA3MjQ3ODMsLTExNjU1ODU0MywtMjAzMTgw
+NDQyOCwtOTg2MDIyNTMxXX0=
 -->
