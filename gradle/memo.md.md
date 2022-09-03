@@ -11,7 +11,10 @@
 プラグインの動作は
 Gradleのタスク定義のあれこれの[プラグインの章](https://qiita.com/opengl-8080/items/0a192b62ee87d8ac7578#%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3) がわかりやすい
 
-利用しているpluginのソースコードやドキュメントは、それぞれ気合いで探すしかない模様。
+利用しているpluginのソースコードやドキュメントは、それぞれ気合いで探すしかない模様
+
+gradle plugin portal にはほぼ情報ない、、
+
 
 
 ### kotlin 系プラグイン
@@ -81,7 +84,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDQ4Mjk1NywtMTc2MDIxMjQxOSwtMT
-kyMDcyNDc4MywtMTE2NTU4NTQzLC0yMDMxODA0NDI4LC05ODYw
-MjI1MzFdfQ==
+eyJoaXN0b3J5IjpbODg0NTM3Mzk4LC0xNzYwMjEyNDE5LC0xOT
+IwNzI0NzgzLC0xMTY1NTg1NDMsLTIwMzE4MDQ0MjgsLTk4NjAy
+MjUzMV19
 -->
