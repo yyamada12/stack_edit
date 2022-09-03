@@ -10,7 +10,8 @@ spring-boot-dependencies 2.1.2 のようにググれば、依存関係のリス�
 https://search.maven.org/artifact/org.springframework.boot/spring-boot-dependencies/2.1.2.RELEASE/pom
 
 github の方でも良い
-https://github.com/mahendra-shinde/maven-repo-springboot/blob/master/repository/org/springframework/boot/spring-boot-dependencies/2.1.4.RELEASE/spring-boot-dependencies-2.1.4.RELEASE.pom
+
+https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spring-boot-dependencies/build.gradle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjcwMTAxN119
+eyJoaXN0b3J5IjpbMTk2NDAzNjYwNSwtNzkyNzAxMDE3XX0=
 -->
