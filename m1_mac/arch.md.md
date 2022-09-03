@@ -17,7 +17,11 @@ M1 Mac では `arch` コマンドで確認できる
 `uname -m ` でも確認可能
 
 
+## 使い分け
+https://zenn.dev/ress/articles/069baf1c305523dfca3d
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkxMzk2MDVdfQ==
+eyJoaXN0b3J5IjpbMjM0MzgxNzkwXX0=
 -->
