@@ -35,11 +35,22 @@ plugins {
 [参考](https://github.com/breandan/kotlin-dsl/blob/70aca202558f2f6e43cd8ead3ec95d669bfd7b33/buildSrc/src/main/kotlin/codegen/GenerateKotlinDependencyExtensions.kt#L78-L88)
 
 ### spring boot プラグイン
+```
+plugins {
+  kotlin("jvm")
+}
+```
 [ソースコード](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin)
 [公式ドキュメント](https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
 
 - bootRunやbootJar タスクを追加
-- 他のプラグインが適用された場合に、プロジェクト設定に
+- 他のプラグインが適用された場合に、プロジェクト設定に変更を加える
+	- kotlin プラグインがあると、spring boot のkotlinバージョンをプラグインのバージョンに合わせる、など
+- spring boot 用の gradle DSL を追加
+などの動作が行われる
+
+### spring boot dependency management プラグイン
+
 
 
 
@@ -89,7 +100,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI3MTYyNjMsMTQ5Mzg5ODIzNSwtMT
+eyJoaXN0b3J5IjpbLTEwMDAyNzkwOTIsMTQ5Mzg5ODIzNSwtMT
 c2MDIxMjQxOSwtMTkyMDcyNDc4MywtMTE2NTU4NTQzLC0yMDMx
 ODA0NDI4LC05ODYwMjI1MzFdfQ==
 -->
