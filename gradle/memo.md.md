@@ -11,7 +11,7 @@
 プラグインの動作は
 Gradleのタスク定義のあれこれの[プラグインの章](https://qiita.com/opengl-8080/items/0a192b62ee87d8ac7578#%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3) がわかりやすい
 
-### kotlin プラグイン
+### kotlin 系プラグイン
 kotlinのプロジェクトをgradleでビルドするために必要
 
 JVMがターゲットの場合は以下のように書く
@@ -22,8 +22,10 @@ plugins {
 ```
 他のターゲットは js や multi platform になる
 
-
 [公式ドキュメント](https://kotlinlang.org/docs/gradle.html#plugin-and-versions)
+
+`kotlin` は DSL で、`org.jetbrains.kotlin` の https://plugins.gradle.org/search?term=org.jetbrains.kotlin
+
 https://github.com/breandan/kotlin-dsl/blob/70aca202558f2f6e43cd8ead3ec95d669bfd7b33/buildSrc/src/main/kotlin/codegen/GenerateKotlinDependencyExtensions.kt#L78-L88
 
 
@@ -76,6 +78,6 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mjg5Mzk1LC0xOTIwNzI0NzgzLC0xMT
+eyJoaXN0b3J5IjpbNjUzMTEzNzYwLC0xOTIwNzI0NzgzLC0xMT
 Y1NTg1NDMsLTIwMzE4MDQ0MjgsLTk4NjAyMjUzMV19
 -->
