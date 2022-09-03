@@ -56,7 +56,13 @@ id("io.spring.dependency-management") version "1.0.11.RELEASE"
 
 [ソースコード](https://github.com/spring-gradle-plugins/dependency-management-plugin)
 
-spring bootの依存関係管理のためのプラグイン。一応spring boot を使ってなくても使える
+spring bootの依存関係管理のためのプラグイン
+一応spring boot を使ってなくても使える
+
+前述のspring boot プラグインを入れていると、このプラグインを入れることで自動的に適用してくれる
+
+バージョンを管理しているライブラリの具体的なバージョンを知りたいときは下記レポジトリを参照すれば良い
+
 
 
 
@@ -106,7 +112,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTkzNjUwNiwxNDkzODk4MjM1LC0xNz
-YwMjEyNDE5LC0xOTIwNzI0NzgzLC0xMTY1NTg1NDMsLTIwMzE4
-MDQ0MjgsLTk4NjAyMjUzMV19
+eyJoaXN0b3J5IjpbNTc3NTUzNTcwLDE0OTM4OTgyMzUsLTE3Nj
+AyMTI0MTksLTE5MjA3MjQ3ODMsLTExNjU1ODU0MywtMjAzMTgw
+NDQyOCwtOTg2MDIyNTMxXX0=
 -->
