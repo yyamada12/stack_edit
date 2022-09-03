@@ -19,18 +19,14 @@
 ① configuration avoidance な書き方 
 ```
 tasks.register("タスク名") {  
-  doFirst {  
-    println("hello")  
-  }  
+  doFirst { println("hello") }
 }  
 ```
 
 or  
 ``` 
 val hello by tasks.registering {  
-    doFirst {  
-        println("hello")  
-    }  
+    doFirst { println("hello") }
 }
 ```
 ↑これはkotlinの委譲を利用した書き方で、本質的には同じ
@@ -39,12 +35,15 @@ val hello by tasks.registering {
 ② eager な書き方
 ```  
 task("タスク名") {  
-  doFirst {  
-    println("hello")  
-  }  
+  doFirst { println("hello") }
 }  
 ```
 or
+```
+tasks.create("タスク名") {
+    doFirst { println("hello") }
+}
+```
 
 
 ## その他 tips
@@ -54,5 +53,5 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjAzNzY4MiwtOTg2MDIyNTMxXX0=
+eyJoaXN0b3J5IjpbLTIwMzE4MDQ0MjgsLTk4NjAyMjUzMV19
 -->
