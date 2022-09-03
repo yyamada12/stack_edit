@@ -7,6 +7,14 @@
 - [kotlin DSLへの乗り換え](https://blog1.mammb.com/entry/2020/11/14/090000)
 - [Gradle のタスク定義のあれこれ](https://qiita.com/opengl-8080/items/0a192b62ee87d8ac7578)
 
+## plugin
+プラグインの動作は
+Gradleのタスク定義のあれこれの[プラグインの章](https://qiita.com/opengl-8080/items/0a192b62ee87d8ac7578#%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3) がわかりやすい
+
+### kotlin プラグイン
+
+
+
 ## kotlin DSL
 
 ### task 登録の書き方
@@ -53,5 +61,6 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE4MDQ0MjgsLTk4NjAyMjUzMV19
+eyJoaXN0b3J5IjpbMjA5NDAxNzM0OSwtMjAzMTgwNDQyOCwtOT
+g2MDIyNTMxXX0=
 -->
