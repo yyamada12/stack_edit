@@ -39,7 +39,7 @@ plugins {
 [公式ドキュメント](https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
 
 - bootRunやbootJar タスクを追加
-- 
+- 他のプラグインが適用された場合に、プロジェクト設定に
 
 
 
@@ -89,7 +89,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2NjI4MjUzLDE0OTM4OTgyMzUsLTE3Nj
-AyMTI0MTksLTE5MjA3MjQ3ODMsLTExNjU1ODU0MywtMjAzMTgw
-NDQyOCwtOTg2MDIyNTMxXX0=
+eyJoaXN0b3J5IjpbLTE2MzI3MTYyNjMsMTQ5Mzg5ODIzNSwtMT
+c2MDIxMjQxOSwtMTkyMDcyNDc4MywtMTE2NTU4NTQzLC0yMDMx
+ODA0NDI4LC05ODYwMjI1MzFdfQ==
 -->
