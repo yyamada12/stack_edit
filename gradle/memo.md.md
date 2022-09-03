@@ -24,7 +24,7 @@ plugins {
 
 
 [公式ドキュメント](https://kotlinlang.org/docs/gradle.html#plugin-and-versions)
-
+https://github.com/breandan/kotlin-dsl/blob/70aca202558f2f6e43cd8ead3ec95d669bfd7b33/buildSrc/src/main/kotlin/codegen/GenerateKotlinDependencyExtensions.kt#L78-L88
 
 
 
@@ -76,6 +76,6 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA3MjQ3ODMsLTExNjU1ODU0MywtMj
-AzMTgwNDQyOCwtOTg2MDIyNTMxXX0=
+eyJoaXN0b3J5IjpbMTY0Mjg5Mzk1LC0xOTIwNzI0NzgzLC0xMT
+Y1NTg1NDMsLTIwMzE4MDQ0MjgsLTk4NjAyMjUzMV19
 -->
