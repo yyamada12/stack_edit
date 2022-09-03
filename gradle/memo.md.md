@@ -34,7 +34,9 @@ plugins {
 ) を設定するためのもの
 [参考](https://github.com/breandan/kotlin-dsl/blob/70aca202558f2f6e43cd8ead3ec95d669bfd7b33/buildSrc/src/main/kotlin/codegen/GenerateKotlinDependencyExtensions.kt#L78-L88)
 
-
+### spring boot プラグイン
+[ソースコード](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin)
+[公式ドキュメント](https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
 
 
 
@@ -84,7 +86,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NTM3Mzk4LC0xNzYwMjEyNDE5LC0xOT
-IwNzI0NzgzLC0xMTY1NTg1NDMsLTIwMzE4MDQ0MjgsLTk4NjAy
-MjUzMV19
+eyJoaXN0b3J5IjpbMTQ5Mzg5ODIzNSwtMTc2MDIxMjQxOSwtMT
+kyMDcyNDc4MywtMTE2NTU4NTQzLC0yMDMxODA0NDI4LC05ODYw
+MjI1MzFdfQ==
 -->
