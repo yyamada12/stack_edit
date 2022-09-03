@@ -9,7 +9,9 @@
 
 ## kotlin DSL
 
-### task 登録
+### task 登録の書き方
+３種類くらいある
+内容は全部同じ？
 
 ```
 tasks.register("タスク名") {  
@@ -43,5 +45,5 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTk2NDAzMSwtOTg2MDIyNTMxXX0=
+eyJoaXN0b3J5IjpbLTE4NDM1ODk1OTksLTk4NjAyMjUzMV19
 -->
