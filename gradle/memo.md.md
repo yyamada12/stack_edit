@@ -12,16 +12,20 @@
 Gradleのタスク定義のあれこれの[プラグインの章](https://qiita.com/opengl-8080/items/0a192b62ee87d8ac7578#%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3) がわかりやすい
 
 ### kotlin プラグイン
+kotlinのプロジェクトをgradleでビルドするために必要
+
 JVMがターゲットの場合は以下のように書く
 ```
 plugins {
   kotlin("jvm")
 }
 ```
-他のターゲットは js や multi platform 
+他のターゲットは js や multi platform になる
 
 
 [公式ドキュメント](https://kotlinlang.org/docs/gradle.html#plugin-and-versions)
+
+
 
 
 
@@ -72,6 +76,6 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjM5MTk2MCwtMTE2NTU4NTQzLC0yMD
-MxODA0NDI4LC05ODYwMjI1MzFdfQ==
+eyJoaXN0b3J5IjpbLTE5MjA3MjQ3ODMsLTExNjU1ODU0MywtMj
+AzMTgwNDQyOCwtOTg2MDIyNTMxXX0=
 -->
