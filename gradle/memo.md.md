@@ -24,9 +24,9 @@ plugins {
 
 [公式ドキュメント](https://kotlinlang.org/docs/gradle.html#plugin-and-versions)
 
-`kotlin` は DSL で、`org.jetbrains.kotlin` の https://plugins.gradle.org/search?term=org.jetbrains.kotlin
-
-https://github.com/breandan/kotlin-dsl/blob/70aca202558f2f6e43cd8ead3ec95d669bfd7b33/buildSrc/src/main/kotlin/codegen/GenerateKotlinDependencyExtensions.kt#L78-L88
+`kotlin` は DSL で、[`org.jetbrains.kotlin` のplugin]( https://plugins.gradle.org/search?term=org.jetbrains.kotlin
+) を設定するためのもの
+[参考](https://github.com/breandan/kotlin-dsl/blob/70aca202558f2f6e43cd8ead3ec95d669bfd7b33/buildSrc/src/main/kotlin/codegen/GenerateKotlinDependencyExtensions.kt#L78-L88)
 
 
 
@@ -78,6 +78,6 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUzMTEzNzYwLC0xOTIwNzI0NzgzLC0xMT
-Y1NTg1NDMsLTIwMzE4MDQ0MjgsLTk4NjAyMjUzMV19
+eyJoaXN0b3J5IjpbLTE3NjAyMTI0MTksLTE5MjA3MjQ3ODMsLT
+ExNjU1ODU0MywtMjAzMTgwNDQyOCwtOTg2MDIyNTMxXX0=
 -->
