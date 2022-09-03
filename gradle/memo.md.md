@@ -69,6 +69,9 @@ https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spr
 kotlin("plugin.spring") version "1.6.21"
 ```
 
+https://kotlinlang.org/docs/all-open-plugin.html#gradle
+
+
 ## kotlin DSL
 
 ### task 登録の書き方
@@ -115,7 +118,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTkxMDQwMywxNDkzODk4MjM1LC0xNz
-YwMjEyNDE5LC0xOTIwNzI0NzgzLC0xMTY1NTg1NDMsLTIwMzE4
-MDQ0MjgsLTk4NjAyMjUzMV19
+eyJoaXN0b3J5IjpbMTc3NTA4MzQxNSwtNzU5OTEwNDAzLDE0OT
+M4OTgyMzUsLTE3NjAyMTI0MTksLTE5MjA3MjQ3ODMsLTExNjU1
+ODU0MywtMjAzMTgwNDQyOCwtOTg2MDIyNTMxXX0=
 -->
