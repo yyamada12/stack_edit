@@ -16,7 +16,7 @@
  基本的には登録だけする方がパフォーマンスが良い
 逆に、タスク登録と同時に作成までする書き方は `eager` な構成という
 
-- configuration avoidance な書き方 
+① configuration avoidance な書き方 
 ```
 tasks.register("タスク名") {  
   doFirst {  
@@ -36,7 +36,7 @@ val hello by tasks.registering {
 ↑これはkotlinの委譲を利用した書き方で、本質的には同じ
 
 
-or  
+② eager な書き方
 ```  
 task("タスク名") {  
   doFirst {  
@@ -44,6 +44,7 @@ task("タスク名") {
   }  
 }  
 ```
+or
 
 
 ## その他 tips
@@ -53,5 +54,5 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkwMzU5NDMyLC05ODYwMjI1MzFdfQ==
+eyJoaXN0b3J5IjpbMTc3MjAzNzY4MiwtOTg2MDIyNTMxXX0=
 -->
