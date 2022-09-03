@@ -11,7 +11,9 @@
 
 ### task 登録の書き方
 色々あるの注意
-前提ちs
+前提知識: configuration avoidance
+ タスクを登録だけして、作成しない、というのが `configuration avoidance` 
+ 基本的には登録だけする方が
  
 ```
 tasks.register("タスク名") {  
@@ -46,5 +48,5 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NTY0NTE5LC05ODYwMjI1MzFdfQ==
+eyJoaXN0b3J5IjpbMTA0MDkyMjg2NCwtOTg2MDIyNTMxXX0=
 -->
