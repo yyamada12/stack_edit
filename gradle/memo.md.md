@@ -68,6 +68,9 @@ https://github.com/spring-projects/spring-boot/blob/main/spring-boot-project/spr
 ```
 kotlin("plugin.spring") version "1.6.21"
 ```
+[アノテーション付与でopenにしてくれる「kotlin-spring」の正体を見てみる](
+https://bottoms-programming.com/archives/kotlin-spring.html) に全部書いてた
+元々は all-open-plugin
 
 https://kotlinlang.org/docs/all-open-plugin.html#gradle
 
@@ -118,7 +121,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTA4MzQxNSwtNzU5OTEwNDAzLDE0OT
+eyJoaXN0b3J5IjpbLTQ0NDUwNTE1MywtNzU5OTEwNDAzLDE0OT
 M4OTgyMzUsLTE3NjAyMTI0MTksLTE5MjA3MjQ3ODMsLTExNjU1
 ODU0MywtMjAzMTgwNDQyOCwtOTg2MDIyNTMxXX0=
 -->
