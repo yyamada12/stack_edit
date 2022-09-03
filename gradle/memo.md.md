@@ -10,15 +10,24 @@
 ## kotlin DSL
 
 ### task 登録の書き方
-３種類くらいある
-内容は全部同じ？
-
+色々あるの注意
+前提ちs
+ 
 ```
 tasks.register("タスク名") {  
   doFirst {  
     println("hello")  
   }  
 }  
+```
+
+or  
+``` 
+val hello by tasks.registering {  
+    doFirst {  
+        println("hello")  
+    }  
+}
 ```
 or  
 ```  
@@ -27,14 +36,6 @@ task("タスク名") {
     println("hello")  
   }  
 }  
-```
-or  
-``` 
-val hello by tasks.registering {  
-    doFirst {  
-        println("hello")  
-    }  
-}
 ```
 
 
@@ -45,5 +46,5 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM1ODk1OTksLTk4NjAyMjUzMV19
+eyJoaXN0b3J5IjpbMzE4NTY0NTE5LC05ODYwMjI1MzFdfQ==
 -->
