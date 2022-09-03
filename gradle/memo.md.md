@@ -38,6 +38,9 @@ plugins {
 [ソースコード](https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin)
 [公式ドキュメント](https://spring.pleiades.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle/)
 
+- bootRunやbootJar タスクを追加
+- 
+
 
 
 ## kotlin DSL
@@ -86,7 +89,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mzg5ODIzNSwtMTc2MDIxMjQxOSwtMT
-kyMDcyNDc4MywtMTE2NTU4NTQzLC0yMDMxODA0NDI4LC05ODYw
-MjI1MzFdfQ==
+eyJoaXN0b3J5IjpbOTc2NjI4MjUzLDE0OTM4OTgyMzUsLTE3Nj
+AyMTI0MTksLTE5MjA3MjQ3ODMsLTExNjU1ODU0MywtMjAzMTgw
+NDQyOCwtOTg2MDIyNTMxXX0=
 -->
