@@ -70,9 +70,8 @@ kotlin("plugin.spring") version "1.6.21"
 ```
 [アノテーション付与でopenにしてくれる「kotlin-spring」の正体を見てみる](
 https://bottoms-programming.com/archives/kotlin-spring.html) に全部書いてた
-元々は all-open-plugin
-
-https://kotlinlang.org/docs/all-open-plugin.html#gradle
+元々は [all-open-plugin](https://kotlinlang.org/docs/all-open-plugin.html#gradle) というやつらしく、
+kotlin の デフォルト final だと spring が困るので、 `@Component` などのアノテーションがついたクラスに open 修飾子をつけるようにするプラグインの模様。
 
 
 ## kotlin DSL
@@ -121,7 +120,7 @@ buildScript {} に ext で 拡張プロパティを設定してあげると、 b
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDUwNTE1MywtNzU5OTEwNDAzLDE0OT
+eyJoaXN0b3J5IjpbLTg5OTYyNDg5NCwtNzU5OTEwNDAzLDE0OT
 M4OTgyMzUsLTE3NjAyMTI0MTksLTE5MjA3MjQ3ODMsLTExNjU1
 ODU0MywtMjAzMTgwNDQyOCwtOTg2MDIyNTMxXX0=
 -->
