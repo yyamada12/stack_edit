@@ -3,12 +3,13 @@
 
 普通に書くと、メモリに乗り切らずOOMが発生してしまうので
 
-- jdbc
+- jdbc の fetchSizeを設定する
+https://www.techscore.com/blog/2019/02/27/jdbc-setfetchsize-%E3%81%A7%E3%81%AF%E3%81%BE%E3%81%A3%E3%81%9F%E8%A9%B1/
+
+- MyBatisを利用する場合は、Cursorを利用するhttps://qiita.com/riekure/items/761abcf54c9216db596f
 
 
-https://qiita.com/riekure/items/761abcf54c9216db596f
-
-> Written with [StackEdit](https://stackedit.io/).
+といった対応をする
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTM3NTEwNV19
+eyJoaXN0b3J5IjpbLTUxNzI4NDQ3N119
 -->
