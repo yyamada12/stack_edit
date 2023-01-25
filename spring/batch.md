@@ -19,6 +19,11 @@ or
 - 一つのバッチを修正するだけで、jar 全体をビルドし直しになる
 
 
+
+参考
+https://stackoverflow.com/questions/62210349/spring-batch-disable-spring-boot-autoconfiguration-for-specific-jobs/62216804#62216804
+https://stackoverflow.com/questions/60349214/how-to-apply-something-like-lazy-to-spring-batch
+など
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2Mjk4MjIyXX0=
+eyJoaXN0b3J5IjpbLTEwNjcxNDg2MjIsNDE2Mjk4MjIyXX0=
 -->
