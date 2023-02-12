@@ -1,7 +1,9 @@
 # Springドキュメント
 
-spring.io の公式ドキュメント (英語) を基本的に見れば良い
-cypher256 さんが作った spring.pleiades.io で、公式ドキュメントの日本語訳が提供されている
+## 公式ドキュメント
+基本的にspring.io の公式ドキュメント (英語) を見れば良い
+cypher256 さんが作った spring.pleiades.io で、公式ドキュメントの日本語訳も提供されている
+(公式が日本語訳を提供しているのではなく、公式ドキュメントの日本語訳ページを公開していただいている)
 
 - 公式サイトトップ
 https://spring.io/
@@ -17,7 +19,8 @@ project 一覧から、spring boot, spring framework, spring batch など 調べ
 pleiades であれば、[トップ画面](https://spring.pleiades.io/) で「主要なプロジェクトリファレンス」として最新バージョンのドキュメントへのリンクが貼られている
 
 
-## サンプル実装やチュート
+## サンプル実装やチュートリアル
+
 
 
 
@@ -26,7 +29,7 @@ pleiades であれば、[トップ画面](https://spring.pleiades.io/) で「主
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4ODc5NTgsMzY5NzM1NTg4LC0yMDk1OD
-E0MzY5LDk0MDU5NjEzOCwtMTY1NzEyNTM2MywxNTY5NjM2NDc1
-LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTkzODkzNjA5NCwzNjk3MzU1ODgsLTIwOT
+U4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLDE1Njk2MzY0
+NzUsNzMwOTk4MTE2XX0=
 -->
