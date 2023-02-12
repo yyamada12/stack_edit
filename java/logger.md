@@ -11,10 +11,18 @@ https://qiita.com/kero3/items/0033adca07a585623768
 とのこと
 
 
+https://qiita.com/nisshiee/items/c5388f1d472ec86295e0
+これがわかりやすそう
+
+
 
 https://www.alibabacloud.com/blog/java-logging-frameworks-summary-and-best-practices_598223
 
-> Written with [StackEdit](https://stackedit.io/).
+現時点でのまとめは↑とか
+
+
+spring frameworkでの議論も見ておきたい
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2Mzk0MTc3Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTg3Mzc4NzQ5LDczMDk5ODExNl19
 -->
