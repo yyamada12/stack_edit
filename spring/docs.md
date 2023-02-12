@@ -1,4 +1,7 @@
-# 公式ドキュメント
+# Springドキュメント
+
+spring.io の公式ドキュメント (英語) に対して、
+
 - 公式サイトトップ
 https://spring.io/
 
@@ -14,6 +17,6 @@ https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzU0NDY5MSwxNTY5NjM2NDc1LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE2NTcxMjUzNjMsMTU2OTYzNjQ3NSw3Mz
+A5OTgxMTZdfQ==
 -->
