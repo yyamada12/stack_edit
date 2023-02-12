@@ -28,6 +28,9 @@ https://spring.pleiades.io/guides
 
 サンプルコードつきのガイドが多数公開されているので、これに従って学習していくと良い
 
+- Spring Boot How-to Guides
+https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto
+日本語訳
 
 
 
@@ -37,7 +40,7 @@ https://spring.pleiades.io/guides
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxNjU4NjIxLDM2OTczNTU4OCwtMjA5NT
-gxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMTU2OTYzNjQ3
-NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NTU3NDYzODksMzY5NzM1NTg4LC0yMD
+k1ODE0MzY5LDk0MDU5NjEzOCwtMTY1NzEyNTM2MywxNTY5NjM2
+NDc1LDczMDk5ODExNl19
 -->
