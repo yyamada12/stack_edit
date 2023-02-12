@@ -24,6 +24,11 @@ pleiades であれば、[トップ画面](https://spring.pleiades.io/) で「主
 - Guides
 https://spring.io/guides
 日本語訳
+https://spring.pleiades.io/guides
+
+サンプルコードつきのガイドが多数公開されているので、これに従って学習していくと良い
+
+
 
 
 
@@ -32,7 +37,7 @@ https://spring.io/guides
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDQyNDUyLDM2OTczNTU4OCwtMjA5NT
+eyJoaXN0b3J5IjpbNjgxNjU4NjIxLDM2OTczNTU4OCwtMjA5NT
 gxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMTU2OTYzNjQ3
 NSw3MzA5OTgxMTZdfQ==
 -->
