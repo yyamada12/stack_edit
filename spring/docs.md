@@ -13,11 +13,16 @@ https://spring.io/projects/
 - pleiades トップ
 https://spring.pleiades.io/
 
-project 一覧から、spring boot, spring framework, spring batch など 調べたいprojectを選択し、 「LEARN タブ」から利用したいバージョンの Reference Doc のリンクからドキュメント
+project 一覧から、spring boot, spring framework, spring batch など 調べたいprojectを選択し、 「LEARN タブ」から利用したいバージョンの Reference Doc のリンクからドキュメントを見ることができる。
+
+pleiades であれば、トップ画面から主要なプロジェクトの最新バージョンのドキュメントへのリンクが貼られているので、そちらが楽かもしれない
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDE1MDQ2ODYsLTIwOTU4MTQzNjksOT
-QwNTk2MTM4LC0xNjU3MTI1MzYzLDE1Njk2MzY0NzUsNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbLTY2MDAxNTcyMSwtMjA5NTgxNDM2OSw5ND
+A1OTYxMzgsLTE2NTcxMjUzNjMsMTU2OTYzNjQ3NSw3MzA5OTgx
+MTZdfQ==
 -->
