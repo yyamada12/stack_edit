@@ -10,11 +10,13 @@ https://spring.io/
 https://spring.io/projects/
 日本語訳 https://spring.pleiades.io/projects
 
+- pleiades トップ
+https://spring.pleiades.io/
 
-project 一覧から、
+project 一覧から、調べたいドキュメントを選択し、 LEARN
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTY3MjMxMyw5NDA1OTYxMzgsLTE2NT
+eyJoaXN0b3J5IjpbMTg4ODIwNTE5OSw5NDA1OTYxMzgsLTE2NT
 cxMjUzNjMsMTU2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
 -->
