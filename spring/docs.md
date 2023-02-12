@@ -21,6 +21,9 @@ pleiades であれば、[トップ画面](https://spring.pleiades.io/) で「主
 
 ## サンプル実装やチュートリアル
 
+- Guides
+https://spring.io/guides
+日本語訳
 
 
 
@@ -29,7 +32,7 @@ pleiades であれば、[トップ画面](https://spring.pleiades.io/) で「主
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODkzNjA5NCwzNjk3MzU1ODgsLTIwOT
-U4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLDE1Njk2MzY0
-NzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTMxMDQyNDUyLDM2OTczNTU4OCwtMjA5NT
+gxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMTU2OTYzNjQ3
+NSw3MzA5OTgxMTZdfQ==
 -->
