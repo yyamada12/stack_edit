@@ -38,7 +38,8 @@ Spring Boot での一般的な How-toがサンプルコードとともに載っ�
 
 ## 初学者に役立つ資料
 - [Spring Framework / Spring Bootに入門する人はまずこの資料を読もう！ #jsug](https://qiita.com/suke_masa/items/9dd3300c3190d6445ff8)
-この 記事の資料集
+この記事で紹介されている資料を読んでいけば理解が深まるはず
+特にその他となっている 
 
 余談だが、Qiita 記事をタグを指定してストック数の多い順で検索すれば良記事に出会いやすい
 https://qiita.com/search?sort=stock&q=tag%3ASpringBoot
@@ -56,7 +57,7 @@ FilterとかInterceptor とか色々あって分からん、という疑問に�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjEwOTQxOCwtMTUxMTczNzYzMiwtMT
+eyJoaXN0b3J5IjpbLTQ2MTMzNjQxMiwtMTUxMTczNzYzMiwtMT
 czNDA5OTE2LC0xODM5NDU1MTQsLTIyODU5OTcwMiwzNjk3MzU1
 ODgsLTIwOTU4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLD
 E1Njk2MzY0NzUsNzMwOTk4MTE2XX0=
