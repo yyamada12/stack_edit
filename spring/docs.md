@@ -36,7 +36,11 @@ https://spring.pleiades.io/spring-boot/docs/current/reference/html/howto.html#ho
 Spring Boot での一般的な How-toがサンプルコードとともに載っている
 ここのサンプルコードは java だけでなく、 kotlin でも提供されているため、kotlinで実装する際に参考になる
 
-
+## 学習に役立つ資料
+- Spring Bootの本当の理解ポイント
+https://www.slideshare.net/masatoshitada7/spring-boot-jjug
+古い資料だが、Spring と Spring Boot の関係を把握するのにとても良い資料
+- 
 
 
 
@@ -45,7 +49,7 @@ Spring Boot での一般的な How-toがサンプルコードとともに載っ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODU5OTcwMiwzNjk3MzU1ODgsLTIwOT
-U4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLDE1Njk2MzY0
-NzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4Mzk0NTUxNCwtMjI4NTk5NzAyLDM2OT
+czNTU4OCwtMjA5NTgxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUz
+NjMsMTU2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
 -->
