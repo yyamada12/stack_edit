@@ -54,13 +54,15 @@ FilterとかInterceptor とか色々あって分からん、という疑問に�
 Spring Boot の重要機能である AutoConfigure について理解を深めることができる
 
 - [Spring Bootの外部設定値の扱い方を理解する](https://qiita.com/kazuki43zoo/items/0ce92fce6d6f3b7bf8eb)
-環境変数や実行時の引数、application.property
+環境変数や実行時の引数、application.properties を利用した外部設定値の扱い方が整理されている
+
+- 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyODM2MzYzLC0xNTExNzM3NjMyLC0xNz
+eyJoaXN0b3J5IjpbODMwODY3ODQ0LC0xNTExNzM3NjMyLC0xNz
 M0MDk5MTYsLTE4Mzk0NTUxNCwtMjI4NTk5NzAyLDM2OTczNTU4
 OCwtMjA5NTgxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMT
 U2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
