@@ -37,11 +37,12 @@ Spring Boot での一般的な How-toがサンプルコードとともに載っ�
 ここのサンプルコードは java だけでなく、 kotlin でも提供されているため、kotlinで実装する際に参考になる
 
 ## 初学者に役立つ資料
-- Spring Framework / Spring Bootに入門する人はまずこの資料を読もう！ #jsughttps://qiita.com/suke_masa/items/9dd3300c3190d6445ff8
+- Spring Framework / Spring Bootに入門する人はまずこの資料を読もう！ #jsug
+https://qiita.com/suke_masa/items/9dd3300c3190d6445ff8
 Spring の 資料集
 - Spring Bootの本当の理解ポイント
 https://www.slideshare.net/masatoshitada7/spring-boot-jjug
-古い資料だが、Spring と Spring Boot の関係を把握するのにとても良い資料
+上記の資料集でも紹介されているが、spring と Spring Boot の関係を把握するのにとても良い資料
 - 初めてでも30分で分かるSpring 5 & Spring Boot 2オーバービュー
 https://www.slideshare.net/masatoshitada7/30spring-5-spring-boot-2-103523666
 こちらも古いが、Spring の主要プロジェクトの概要が掴める
@@ -62,7 +63,7 @@ FilterとかInterceptor とか色々あって分からん、という疑問に�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjkxNzkyMzksLTE3MzQwOTkxNiwtMT
+eyJoaXN0b3J5IjpbLTE1MTE3Mzc2MzIsLTE3MzQwOTkxNiwtMT
 gzOTQ1NTE0LC0yMjg1OTk3MDIsMzY5NzM1NTg4LC0yMDk1ODE0
 MzY5LDk0MDU5NjEzOCwtMTY1NzEyNTM2MywxNTY5NjM2NDc1LD
 czMDk5ODExNl19
