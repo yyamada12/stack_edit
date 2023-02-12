@@ -56,14 +56,15 @@ Spring Boot の重要機能である AutoConfigure について理解を深め�
 - [Spring Bootの外部設定値の扱い方を理解する](https://qiita.com/kazuki43zoo/items/0ce92fce6d6f3b7bf8eb)
 環境変数や実行時の引数、application.properties を利用した外部設定値の扱い方が整理されている
 
-- 
+- [SLF4J、Logback、Log4Jの関係を挙動とともに整理する](https://qiita.com/NagaokaKenichi/items/9febd2e559331152fcf8)
+spring に限らないが、spring のデフォルトの
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwODY3ODQ0LC0xNTExNzM3NjMyLC0xNz
-M0MDk5MTYsLTE4Mzk0NTUxNCwtMjI4NTk5NzAyLDM2OTczNTU4
-OCwtMjA5NTgxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMT
-U2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTA3OTg0MjUsODMwODY3ODQ0LC0xNT
+ExNzM3NjMyLC0xNzM0MDk5MTYsLTE4Mzk0NTUxNCwtMjI4NTk5
+NzAyLDM2OTczNTU4OCwtMjA5NTgxNDM2OSw5NDA1OTYxMzgsLT
+E2NTcxMjUzNjMsMTU2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
 -->
