@@ -13,10 +13,10 @@ https://spring.io/projects/
 - pleiades トップ
 https://spring.pleiades.io/
 
-project 一覧から、調べたいドキュメントを選択し、 LEARN
+project 一覧から、調べたいドキュメントを選択し、 LEARN から
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODIwNTE5OSw5NDA1OTYxMzgsLTE2NT
-cxMjUzNjMsMTU2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwOTU4MTQzNjksOTQwNTk2MTM4LC0xNj
+U3MTI1MzYzLDE1Njk2MzY0NzUsNzMwOTk4MTE2XX0=
 -->
