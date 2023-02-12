@@ -53,14 +53,15 @@ FilterとかInterceptor とか色々あって分からん、という疑問に�
 - [Spring BootのAutoConfigureの仕組みを理解する](https://qiita.com/kazuki43zoo/items/8645d9765edd11c6f1dd)
 Spring Boot の重要機能である AutoConfigure について理解を深めることができる
 
-- [](https://qiita.com/kazuki43zoo/items/0ce92fce6d6f3b7bf8eb)
+- [Spring Bootの外部設定値の扱い方を理解する](https://qiita.com/kazuki43zoo/items/0ce92fce6d6f3b7bf8eb)
+環境変数や実行時の引数、application.property
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzAyMDg3MCwtMTUxMTczNzYzMiwtMT
-czNDA5OTE2LC0xODM5NDU1MTQsLTIyODU5OTcwMiwzNjk3MzU1
-ODgsLTIwOTU4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLD
-E1Njk2MzY0NzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNTIyODM2MzYzLC0xNTExNzM3NjMyLC0xNz
+M0MDk5MTYsLTE4Mzk0NTUxNCwtMjI4NTk5NzAyLDM2OTczNTU4
+OCwtMjA5NTgxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMT
+U2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
 -->
