@@ -47,19 +47,19 @@ https://qiita.com/search?sort=stock&q=tag%3ASpringBoot
 
 
 ## ユースケース別で役立つ資料
-- Spring MVC(+Spring Boot)上でのリクエスト共通処理の実装方法を理解する
-https://qiita.com/kazuki43zoo/items/757b557c05f548c6c5db
+- [Spring MVC(+Spring Boot)上でのリクエスト共通処理の実装方法を理解する](https://qiita.com/kazuki43zoo/items/757b557c05f548c6c5db)
 FilterとかInterceptor とか色々あって分からん、という疑問に答えてくれる
 
-- Spring BootのAutoConfigureの仕組みを理解する
-https://qiita.com/kazuki43zoo/items/8645d9765edd11c6f1dd
-Spring Boot の重要
+- [Spring BootのAutoConfigureの仕組みを理解する](https://qiita.com/kazuki43zoo/items/8645d9765edd11c6f1dd)
+Spring Boot の重要機能である AutoConfigure について理解を深めることができる
+
+- [](https://qiita.com/kazuki43zoo/items/0ce92fce6d6f3b7bf8eb)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjY4NTgzNywtMTUxMTczNzYzMiwtMT
+eyJoaXN0b3J5IjpbMjA3MzAyMDg3MCwtMTUxMTczNzYzMiwtMT
 czNDA5OTE2LC0xODM5NDU1MTQsLTIyODU5OTcwMiwzNjk3MzU1
 ODgsLTIwOTU4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLD
 E1Njk2MzY0NzUsNzMwOTk4MTE2XX0=
