@@ -31,7 +31,10 @@ https://spring.pleiades.io/guides
 - Spring Boot How-to Guides
 https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto
 日本語訳
+https://spring.pleiades.io/spring-boot/docs/current/reference/html/howto.html#howto
 
+Spring Boot での一般的な How-toがサンプルコードとともに載っている
+ここのサンプルコード
 
 
 
@@ -40,7 +43,7 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU3NDYzODksMzY5NzM1NTg4LC0yMD
-k1ODE0MzY5LDk0MDU5NjEzOCwtMTY1NzEyNTM2MywxNTY5NjM2
-NDc1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbOTY3NDc5MTgwLDM2OTczNTU4OCwtMjA5NT
+gxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMTU2OTYzNjQ3
+NSw3MzA5OTgxMTZdfQ==
 -->
