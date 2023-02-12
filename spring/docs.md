@@ -39,7 +39,8 @@ Spring Boot での一般的な How-toがサンプルコードとともに載っ�
 ## 初学者に役立つ資料
 - [Spring Framework / Spring Bootに入門する人はまずこの資料を読もう！ #jsug](https://qiita.com/suke_masa/items/9dd3300c3190d6445ff8)
 この記事で紹介されている資料を読んでいけば理解が深まるはず
-その他として紹介されている部分に良資料が多い ( [Spring for Spring Boot](https://speakerdeck.com/masatoshitada/spring-for-spring-boot-number-jsug) とか
+特に、[その他](https://qiita.com/suke_masa/items/9dd3300c3190d6445ff8#%E3%81%9D%E3%81%AE%E4%BB%96)として紹介されている部分に良い
+資料が多い ( [Spring for Spring Boot](https://speakerdeck.com/masatoshitada/spring-for-spring-boot-number-jsug) とか)
 
 余談だが、Qiita 記事をタグを指定してストック数の多い順で検索すれば良記事に出会いやすい
 https://qiita.com/search?sort=stock&q=tag%3ASpringBoot
@@ -50,15 +51,16 @@ https://qiita.com/search?sort=stock&q=tag%3ASpringBoot
 https://qiita.com/kazuki43zoo/items/757b557c05f548c6c5db
 FilterとかInterceptor とか色々あって分からん、という疑問に答えてくれる
 
-- 
-
+- Spring BootのAutoConfigureの仕組みを理解する
+https://qiita.com/kazuki43zoo/items/8645d9765edd11c6f1dd
+Spring Boot の重要
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY5NTMxODMsLTE1MTE3Mzc2MzIsLT
-E3MzQwOTkxNiwtMTgzOTQ1NTE0LC0yMjg1OTk3MDIsMzY5NzM1
-NTg4LC0yMDk1ODE0MzY5LDk0MDU5NjEzOCwtMTY1NzEyNTM2My
-wxNTY5NjM2NDc1LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTc2NjY4NTgzNywtMTUxMTczNzYzMiwtMT
+czNDA5OTE2LC0xODM5NDU1MTQsLTIyODU5OTcwMiwzNjk3MzU1
+ODgsLTIwOTU4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLD
+E1Njk2MzY0NzUsNzMwOTk4MTE2XX0=
 -->
