@@ -40,7 +40,11 @@ Spring Boot での一般的な How-toがサンプルコードとともに載っ�
 - Spring Bootの本当の理解ポイント
 https://www.slideshare.net/masatoshitada7/spring-boot-jjug
 古い資料だが、Spring と Spring Boot の関係を把握するのにとても良い資料
-- 
+- 初めてでも30分で分かるSpring 5 & Spring Boot 2オーバービュー
+https://www.slideshare.net/masatoshitada7/30spring-5-spring-boot-2-103523666
+こちらも古いが、Spring の主要プロジェクトの概要が掴める
+
+
 
 
 
@@ -49,7 +53,7 @@ https://www.slideshare.net/masatoshitada7/spring-boot-jjug
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk0NTUxNCwtMjI4NTk5NzAyLDM2OT
-czNTU4OCwtMjA5NTgxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUz
-NjMsMTU2OTYzNjQ3NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3MzQwOTkxNiwtMTgzOTQ1NTE0LC0yMj
+g1OTk3MDIsMzY5NzM1NTg4LC0yMDk1ODE0MzY5LDk0MDU5NjEz
+OCwtMTY1NzEyNTM2MywxNTY5NjM2NDc1LDczMDk5ODExNl19
 -->
