@@ -10,20 +10,11 @@ https://spring.io/
 https://spring.io/projects/
 日本語訳 https://spring.pleiades.io/projects
 
-- spring framework reference
-https://docs.spring.io/spring-framework/docs/current/reference/html/
-日本語訳
-https://spring.pleiades.io/spring-framework/docs/current/reference/html/
 
-- spring boot reference
-https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
-日本語訳
-https://spring.pleiades.io/spring-boot/docs/current/reference/html/
-
-- 
+project 一覧から、
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwNTk2MTM4LC0xNjU3MTI1MzYzLDE1Nj
-k2MzY0NzUsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4OTEyMTMzNDAsOTQwNTk2MTM4LC0xNj
+U3MTI1MzYzLDE1Njk2MzY0NzUsNzMwOTk4MTE2XX0=
 -->
