@@ -34,7 +34,9 @@ https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto
 https://spring.pleiades.io/spring-boot/docs/current/reference/html/howto.html#howto
 
 Spring Boot での一般的な How-toがサンプルコードとともに載っている
-ここのサンプルコード
+ここのサンプルコードは java だけでなく、 kotlin でも提供されているため、kotlinで実装する際に参考になる
+
+
 
 
 
@@ -43,7 +45,7 @@ Spring Boot での一般的な How-toがサンプルコードとともに載っ�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3NDc5MTgwLDM2OTczNTU4OCwtMjA5NT
-gxNDM2OSw5NDA1OTYxMzgsLTE2NTcxMjUzNjMsMTU2OTYzNjQ3
-NSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIyODU5OTcwMiwzNjk3MzU1ODgsLTIwOT
+U4MTQzNjksOTQwNTk2MTM4LC0xNjU3MTI1MzYzLDE1Njk2MzY0
+NzUsNzMwOTk4MTE2XX0=
 -->
