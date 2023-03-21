@@ -1,0 +1,13 @@
+# Go Module
+
+### go mod tidy
+「たいでぃ」と読む
+ソースコードに記載されている内容から、必要なライブラリをgo.modに追加し、不要なライブラリを削除する
+
+
+
+
+> Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1ODYzNjg0NzJdfQ==
+-->
