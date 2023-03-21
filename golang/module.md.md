@@ -11,7 +11,7 @@ go.modファイルが作成され、module名とgoのversionが記載される
 require として、直接必要なライブラリと、間接的に必要なライブラリが追加されていくことになる
 
 ### go mod tidy
-「たいでぃ」と読む
+tidy は 「たいでぃ」と読む
 ソースコードに記載されている内容から、必要なライブラリをgo.modに追加し、不要なライブラリを削除する
 
 また、必要なライブラリをlocalにダウンロードする
@@ -20,9 +20,12 @@ require として、直接必要なライブラリと、間接的に必要なラ
 
 
 
+## Go Workspace
 
+`go work init` で初期化する
+go.work ファイルが作成される
 
-> Written with [StackEdit](https://stackedit.io/).
+`go work use [ディレクトリ名]` とすると、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODI2MTE4NiwtMTU4NjM2ODQ3Ml19
+eyJoaXN0b3J5IjpbLTc1ODg2NDUxMSwtMTU4NjM2ODQ3Ml19
 -->
