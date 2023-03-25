@@ -29,7 +29,11 @@ AI: I am an AI created by OpenAI. How can I help you today? Human:
 ```
 
 
-### 間違ったことを
+### 間違ったことを言わせないために
+
+- 正しい知識をinputしておく
+	- (それができれば苦労しない気がするけど、、)
+- I don7
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMwNzA1MzYwXX0=
+eyJoaXN0b3J5IjpbLTExMDE5MjU0OF19
 -->
