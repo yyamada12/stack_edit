@@ -51,7 +51,10 @@ https://webtan.impress.co.jp/e/2023/02/16/44314
 
 "このタスクで最高の結果をだすために、追加の情報が必要な場合は、質問をしてください" という文を最後に入れる
 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDM5ODE5OTQsMTA2NDIyNDgwMCwxMz
-cwMzA2MjcwXX0=
+eyJoaXN0b3J5IjpbLTk3NTYzMjkyOCwxMDY0MjI0ODAwLDEzNz
+AzMDYyNzBdfQ==
 -->
