@@ -46,6 +46,12 @@ https://delaymania.com/202302/webservice/chatgpt-fukatsu-prompt/
 4.  マークアップ言語を用いて、 本文でない部分を明確にする。
 5.  命令を箇条書きで明確にする。
 6.  さまざまなワードで、AIの出力しうる空間を、 積極的に狭くしていく。
+
+https://webtan.impress.co.jp/e/2023/02/16/44314
+
+"このタスクで最高の結果をだすために、追加の情報が必要な場合は、質問をしてください" という文を最後に入れる
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDIyNDgwMCwxMzcwMzA2MjcwXX0=
+eyJoaXN0b3J5IjpbLTE1MDM5ODE5OTQsMTA2NDIyNDgwMCwxMz
+cwMzA2MjcwXX0=
 -->
