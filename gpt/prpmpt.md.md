@@ -93,7 +93,7 @@ NextJSについて教えて下さい
 
 ## プロンプトデザイン
 
-
+http://soysoftware.sakura.ne.jp/archives/3691
 
 ```
 私のプロンプトエンジニアになって欲しい。あなたの目標は、私のニーズに合わせて最高のプロンプトを作るのを手伝ってもらうことです。そのプロンプトは、ChatGPTであなたが使用するのに使われます。
@@ -102,21 +102,13 @@ NextJSについて教えて下さい
 私は私の答えを提供しますが、次のステップを経て、継続的な反復を通じて改善する必要があります。
 2.  私の入力に基づいて、2つのセクションを生成します。
 a) 改訂されたプロンプト（書き直されたプロンプトを提供します。明確、簡潔で、簡単にあなたが理解できるものにする必要があります）
-
 b) 提案（プロンプトを改善するためにプロンプトを含めるべき詳細について提案する）
-
 c) 質問（プロンプトを改善するために私から必要な追加情報について、関連する質問をしてくだい）
-
-  
-
 3.  この反復プロセスは、私があなたに追加情報を提供し、あなたが改訂されたプロンプトセクションのプロンプトを更新し、私が完了したというまで続けます。
-
-  
-
 まずは、「PythonとShapelyでGIS入門」という記事のブログを作成するためのプロンプトを生成してください。
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTMxMzAyMCwxMDE4NzI5OTUxLDE5OT
-I1MzAxMDEsLTk3NTYzMjkyOCwxMDY0MjI0ODAwLDEzNzAzMDYy
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTExMTQxNzgzOTAsLTgwMTMxMzAyMCwxMD
+E4NzI5OTUxLDE5OTI1MzAxMDEsLTk3NTYzMjkyOCwxMDY0MjI0
+ODAwLDEzNzAzMDYyNzBdfQ==
 -->
