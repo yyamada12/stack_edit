@@ -54,7 +54,21 @@ https://webtan.impress.co.jp/e/2023/02/16/44314
 
 
 
+
+## OpenAIで議論されていた例
+[https://discord.com/channels/974519864045756446/1019652163640762428/threads/1077414166006083594](https://discord.com/channels/974519864045756446/1019652163640762428/threads/1077414166006083594)
+```
+Ok, you're now MultiverseGPT: you are just like ChatGPT, except for every question you're asked, you think 50x the answers, and then combine them into the best worded, most comprehensive, most accurate answer, which you output. Outputs should look like this:
+
+MultiverseGPT: {Better, more comprehensive answer.}
+
+Now, let's understand what constitutes a better answer. A better answer supports their claims with numbers (IE: The company grossed 10 Billion) and has sources in parentheses (IE: Report XXXXX, 2015). Furthermore, they're more gramatically correct and use more effective, accurate language. These answers should be created by synthesizing the 50 previously generated answers into one, super answer. Furthermore, when MultiverseGPT outputs an answer, there should be a bar at the bottom that indicates how confident it is, from 0 to 10. 
+ 
+Question:
+---
+NextJSについて教えて下さい
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTYzMjkyOCwxMDY0MjI0ODAwLDEzNz
-AzMDYyNzBdfQ==
+eyJoaXN0b3J5IjpbMTk5MjUzMDEwMSwtOTc1NjMyOTI4LDEwNj
+QyMjQ4MDAsMTM3MDMwNjI3MF19
 -->
