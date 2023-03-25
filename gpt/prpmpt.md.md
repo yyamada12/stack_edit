@@ -37,7 +37,15 @@ AI: I am an AI created by OpenAI. How can I help you today? Human:
 
 
 
+## 深津式
+https://delaymania.com/202302/webservice/chatgpt-fukatsu-prompt/
 
+1.  ロールを明確にする
+2.  入力から出力を作ることを明確にする
+3.  何を出力するかを明確にする
+4.  マークアップ言語を用いて、 本文でない部分を明確にする。
+5.  命令を箇条書きで明確にする。
+6.  さまざまなワードで、AIの出力しうる空間を、 積極的に狭くしていく。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MzEwOTA2LDEzNzAzMDYyNzBdfQ==
+eyJoaXN0b3J5IjpbMTA2NDIyNDgwMCwxMzcwMzA2MjcwXX0=
 -->
