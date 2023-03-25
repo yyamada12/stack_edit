@@ -21,12 +21,15 @@ https://platform.openai.com/docs/guides/completion
 ### 会話の場合
 - 意図を伝えると同時に、どのように振る舞うべきかを指示すると良い
 	- 「親切で」とか「フレンドリー」とか
-- IDをつける。
+- IDをつける。下の例の HumanとかAI とか見たいな
 
 ```
 Human: Hello, who are you? 
 AI: I am an AI created by OpenAI. How can I help you today? Human:
 ```
+
+
+### 間違ったことを
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0NzQ3OTU1XX0=
+eyJoaXN0b3J5IjpbNjMwNzA1MzYwXX0=
 -->
