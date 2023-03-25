@@ -14,7 +14,12 @@ https://platform.openai.com/docs/guides/completion
 
 - 平易な言葉を使うこと
 - どんな分類先があるのかを示すこと
+- 一般的なタスクであれば、少ない例でも良い
+
+
+
+### 会話の場合
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI1MzQ1Nl19
+eyJoaXN0b3J5IjpbNzgzODQwNTg0XX0=
 -->
