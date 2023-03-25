@@ -33,7 +33,9 @@ AI: I am an AI created by OpenAI. How can I help you today? Human:
 
 - 正しい知識をinputしておく
 	- (それができれば苦労しない気がするけど、、)
-- I don7
+- I don't know  と答えて良いとinputする
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDE5MjU0OF19
+eyJoaXN0b3J5IjpbMTM3MDMwNjI3MF19
 -->
