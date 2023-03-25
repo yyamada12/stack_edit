@@ -5,7 +5,15 @@
 - バグ発見
 - アプリ開発
 - ゲーム開発
-- ぷ
+- コーディング
+- プログラミング学習
+
+どういう区分けなのか知らんが、、
+
+SEO対策
+LP制作
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM0MjI5N119
+eyJoaXN0b3J5IjpbLTE0MjcwODQyMzFdfQ==
 -->
