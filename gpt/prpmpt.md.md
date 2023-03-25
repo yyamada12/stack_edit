@@ -68,7 +68,28 @@ Question:
 ---
 NextJSについて教えて下さい
 ```
+
+
+## 使えそうな定型分
+```
+# 命令文:
+あなたはプロのxxxです。入力文にある内容を、制約条件を満たしながら、出力例に従って、テーブルにまとめてください。
+
+# 入力文:
+[1] YYYにおいて常に見るべきKPI
+[2] [1]の見るべきポイント
+[3] [2]について、来週行えるボリュームの施策案
+[4] [2]について、3ヶ月かけて行う施策案
+
+# 制約条件:
+- ZZZから取得できるデータを対象にしてください
+- KPIは30個あげてください。
+- 見るべきKPIに優先順位をつけて、優先度が高い順から並べてください。
+
+# 出力例:
+[1]の各項目について、[2]の項目を上げ、[3][4]を書く。これをテーブルの1行ずつまとめてください。
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjUzMDEwMSwtOTc1NjMyOTI4LDEwNj
-QyMjQ4MDAsMTM3MDMwNjI3MF19
+eyJoaXN0b3J5IjpbMTAxODcyOTk1MSwxOTkyNTMwMTAxLC05Nz
+U2MzI5MjgsMTA2NDIyNDgwMCwxMzcwMzA2MjcwXX0=
 -->
