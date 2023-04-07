@@ -23,11 +23,11 @@ tidy は 「たいでぃ」と読む
 ## Go Workspace
 
 `go work init` で初期化する
-go.work ファイルが作成されるJJ
+go.work ファイルが作成される
 
 `go work use [モジュールディレクトリ名]` とすると、必要なモジュールを追加することができる
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjcxNDcwNCwxNjYzODk1NDA4LC0xNT
+eyJoaXN0b3J5IjpbMTY2Mzg5NTQwOCwxNjYzODk1NDA4LC0xNT
 g2MzY4NDcyXX0=
 -->
