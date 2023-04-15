@@ -35,7 +35,7 @@
 |合併・買収|相互運用性、スケーラビリティ、適応性、拡張性 |
 |市場投入までの時間|アジリティ、テスト用意性、デプロイ容易性|
 |ユーザー満足度|パフォーマンス、可用性、耐障害性、テスト容易性、デプロイ容易性、アジリティ、セキュ リティ|
-|||
+|競争優位性|アジリティ、テスト容易性、デプロイ容易性、スケーラビリティ、可用性、耐障害性|
 |時間と予算|シンプルさ、フィジビリティ|
 
 
@@ -44,6 +44,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwOTY2MDU4LC0xNTYzMDc5NTE1LC0xOT
-I3NjE0NDE4XX0=
+eyJoaXN0b3J5IjpbLTY4NjY5OTUxNiwtMTU2MzA3OTUxNSwtMT
+kyNzYxNDQxOF19
 -->
