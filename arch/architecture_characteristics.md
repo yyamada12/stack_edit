@@ -30,7 +30,19 @@
 |||
 
 
+ソフトウェアアーキテクチャの基礎
+
+合併・買収
+ユーザー満足度 
+
+時間と予算
+
+相互運用性、スケーラビリティ、適応性、拡張性 
+
+パフォーマンス、可用性、耐障害性、テスト容易性、デプロイ容易性、アジリティ、セキュ リティ
+
+シンプルさ、フィジビリティ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjMwNzk1MTUsLTE5Mjc2MTQ0MThdfQ
-==
+eyJoaXN0b3J5IjpbLTEyNjEwNDQ1NjUsLTE1NjMwNzk1MTUsLT
+E5Mjc2MTQ0MThdfQ==
 -->
