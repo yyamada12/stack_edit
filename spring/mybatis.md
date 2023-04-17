@@ -11,10 +11,12 @@ https://qiita.com/5zm/items/e1faac61a1d00998fb1f
 https://qiita.com/5zm/items/0864d6641c65f976d415
 
 
+- mybatis-spring-boot-starterの使い方 https://qiita.com/kazuki43zoo/items/ea79e206d7c2e990e478
+
 kotlinで使う場合
 - KotlinでMyBatisを使う時のTips
 https://pppurple.hatenablog.com/entry/2019/08/07/223321
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODU4NDk4NV19
+eyJoaXN0b3J5IjpbMjU0MjYxMzIzLC05NDg1ODQ5ODVdfQ==
 -->
