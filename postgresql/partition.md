@@ -50,7 +50,12 @@ DETAIL:  Partition key of the failing row contains (logdate) = (2006-01-15).
 
 
 ## ハッシュパーティション
-ハッシュの場合も、 MODULES と REMINDER を設定して、おyパーティションを作成する必要がある
+ハッシュの場合も、 MODULES と REMINDER を設定して、親テーブルと、子のパーティションをそれぞれ作成する必要がある
+
+一度 MODULESとREMINDERを指定すると、後からMODULESを変更することができない
+(データ移行が必要)
+
+なので、あまり使えない、、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzU0Njg5OV19
+eyJoaXN0b3J5IjpbMTUzNDk0NTZdfQ==
 -->
