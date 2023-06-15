@@ -5,7 +5,7 @@
 https://www.postgresql.jp/document/15/html/ddl-partitioning.html
 
 
-サンプル
+## trial
 
 テーブル作成
 ```
@@ -38,10 +38,19 @@ INSERT INTO measurement VALUES (1, '2006-02-15', 1, 1);
  INSERT INTO measurement_y2006m02 VALUES (2, '2006-02-28', 2, 2);
 ```
 
-パーティションの範囲外の値は
+パーティションの範囲外の値はエラーになる
 ```
 INSERT INTO measurement VALUES (1, '2006-01-15', 1, 1);
 ```
+↓
+```
+ERROR:  no partition of relation "measurement" found for row
+DETAIL:  Partition key of the failing row contains (logdate) = (2006-01-15).
+```
+
+
+## ハッシュパーティション
+ハッシュの場合も、 MODULES と REMINDER を設定して、おyパーティションを作成する必要がある
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ4MzA0OTRdfQ==
+eyJoaXN0b3J5IjpbLTUzMzU0Njg5OV19
 -->
