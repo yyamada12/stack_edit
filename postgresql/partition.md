@@ -14,7 +14,7 @@ CREATE TABLE measurement (
     logdate         date not null,
     peaktemp        int,
     unitsales       int
-);
+) PARTITION BY RANGE (logdate);
 ```
 
 
@@ -28,6 +28,9 @@ CREATE TABLE measurement_y2006m03 PARTITION OF measurement
 ```
 
 
+データ挿入
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjExMTIyN119
+eyJoaXN0b3J5IjpbLTE1MTc4NDA5NDZdfQ==
 -->
