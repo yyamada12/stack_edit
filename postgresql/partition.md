@@ -30,7 +30,8 @@ CREATE TABLE measurement_y2006m03 PARTITION OF measurement
 
 データ挿入
 ```
-
+INSERT INTO measurement VALUES (1, '2006-02-15', 1, 1);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc4NDA5NDZdfQ==
+eyJoaXN0b3J5IjpbLTY0ODg5NTc5OF19
 -->
