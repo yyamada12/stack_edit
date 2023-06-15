@@ -32,6 +32,16 @@ CREATE TABLE measurement_y2006m03 PARTITION OF measurement
 ```
 INSERT INTO measurement VALUES (1, '2006-02-15', 1, 1);
 ```
+
+パーティションに直接挿入も可能
+```
+ INSERT INTO measurement_y2006m02 VALUES (2, '2006-02-28', 2, 2);
+```
+
+パーティションの範囲外の値は
+```
+INSERT INTO measurement VALUES (1, '2006-01-15', 1, 1);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODg5NTc5OF19
+eyJoaXN0b3J5IjpbLTE3NjQ4MzA0OTRdfQ==
 -->
