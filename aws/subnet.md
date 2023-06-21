@@ -15,7 +15,14 @@
 ※ ALB は外部ALBと内部ALBがあり、作成時に [スキーム] で、[インターネット向け] または [内部] を選択する
 
 
+### EC2
+- public subnet に配置したEC2
+  - パブリックIPアドレスを設定した場合
+    -  インターネットからアクセス可能
+    - インターネットへのアクセ
+  - パブリックIPアドレスを指定しなかった場合
+    - インターネットからアクセス不可
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgwMjM4NzAsMTgwNjMzNzMwMCwzOT
-c0NTk3OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDEwMDkxNSwxODA2MzM3MzAwLDM5Nz
+Q1OTc4LDczMDk5ODExNl19
 -->
