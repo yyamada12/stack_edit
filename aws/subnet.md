@@ -22,8 +22,10 @@
     - インターネットへのアクセスも可能
   - パブリックIPアドレスを指定しなかった場合
     - インターネットからアクセス不可
-    - インターネットへのアクセスは可能
+    - インターネットへのアクセスも不可
+    - 
+    - private ip で、public subnet 上のEC2からsshすることは可能
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDAxOTQ1NjUsMTgwNjMzNzMwMCwzOT
-c0NTk3OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTU2NTIyNzE1MiwtMTEwMDE5NDU2NSwxOD
+A2MzM3MzAwLDM5NzQ1OTc4LDczMDk5ODExNl19
 -->
