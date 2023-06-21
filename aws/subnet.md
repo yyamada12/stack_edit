@@ -28,9 +28,11 @@
 - private subnet に配置したEC2
   - EC2起動時にパブリックIPアドレスを設定した場合
     - 一応、パブリックIPアドレスを設定することはできる
-    - しかし、private subnet に配置しているため、インタ
+    - しかし、private subnet に配置しているため、インターネットからのアクセスは不可
+    - インターネットへのアクセスも不可
+    - (この状態でNATゲートウェイを作った場合でも検証したい)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2OTIyODk3Myw0MzE5MTIwODUsLTExMD
+eyJoaXN0b3J5IjpbLTI2NzY1MjE5MSw0MzE5MTIwODUsLTExMD
 AxOTQ1NjUsMTgwNjMzNzMwMCwzOTc0NTk3OCw3MzA5OTgxMTZd
 fQ==
 -->
