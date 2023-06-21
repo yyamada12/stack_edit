@@ -14,7 +14,8 @@
 
 ※ ALB は外部ALBと内部ALBがあり、作成時に [スキーム] で、[インターネット向け] または [内部] を選択する
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjMzNzMwMCwzOTc0NTk3OCw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1MzgwMjM4NzAsMTgwNjMzNzMwMCwzOT
+c0NTk3OCw3MzA5OTgxMTZdfQ==
 -->
