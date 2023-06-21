@@ -17,14 +17,20 @@
 
 ### EC2
 - public subnet に配置したEC2
-  - パブリックIPアドレスを設定した場合
+  - EC2起動時にパブリックIPアドレスを設定した場合
     -  インターネットからアクセス可能
     - インターネットへのアクセスも可能
-  - パブリックIPアドレスを指定しなかった場合
+  - EC2起動時にパブリックIPアドレスを指定しなかった場合
     - インターネットからアクセス不可
     - インターネットへのアクセスも不可
     - private ip で、public subnet 上のEC2からsshすることは可能
+
+- private subnet に配置したEC2
+  - EC2起動時にパブリックIPアドレスを設定した場合
+    - 一応、パブリックIPアドレスを設定することはできる
+    - しかし、private subnet に配置しているため、インタ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxOTEyMDg1LC0xMTAwMTk0NTY1LDE4MD
-YzMzczMDAsMzk3NDU5NzgsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTg2OTIyODk3Myw0MzE5MTIwODUsLTExMD
+AxOTQ1NjUsMTgwNjMzNzMwMCwzOTc0NTk3OCw3MzA5OTgxMTZd
+fQ==
 -->
