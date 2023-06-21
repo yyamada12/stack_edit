@@ -19,10 +19,11 @@
 - public subnet に配置したEC2
   - パブリックIPアドレスを設定した場合
     -  インターネットからアクセス可能
-    - インターネットへのアクセ
+    - インターネットへのアクセスも可能
   - パブリックIPアドレスを指定しなかった場合
     - インターネットからアクセス不可
+    - インターネットへのアクセスは可能
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEwMDkxNSwxODA2MzM3MzAwLDM5Nz
-Q1OTc4LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTExMDAxOTQ1NjUsMTgwNjMzNzMwMCwzOT
+c0NTk3OCw3MzA5OTgxMTZdfQ==
 -->
