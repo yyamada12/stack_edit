@@ -3,13 +3,13 @@
 - public subnet
   - インターネットからアクセス可能
   - インターネットへのアクセスも可能
-  - private subnet へは、 private ip によってアクセス可能?(検証したい)
+  - private subnet へは、 private ip によってアクセス可能
 - private subnet
   - インターネットからのアクセスは不可
     よって、一般的には外部ALBなどから、private subnet 上のアプリケーションにアクセスさせる
   - インターネットへのアクセスは不可
     一般的には、NATゲートウェイを立てて、そこ経由でインターネットにアクセスする
-  - public subnet へのアクセスは、 private ip によってアクセス可能? (検証したい)
+  - public subnet へのアクセスは、 private ip によってアクセス可能
 
 
 ※ ALB は外部ALBと内部ALBがあり、作成時に [スキーム] で、[インターネット向け] または [内部] を選択する
@@ -32,7 +32,7 @@
     - インターネットへのアクセスも不可
     - (この状態でNATゲートウェイを作った場合でも検証したい)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzY1MjE5MSw0MzE5MTIwODUsLTExMD
-AxOTQ1NjUsMTgwNjMzNzMwMCwzOTc0NTk3OCw3MzA5OTgxMTZd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNzc2MTMzNjcsLTI2NzY1MjE5MSw0Mz
+E5MTIwODUsLTExMDAxOTQ1NjUsMTgwNjMzNzMwMCwzOTc0NTk3
+OCw3MzA5OTgxMTZdfQ==
 -->
