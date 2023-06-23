@@ -29,10 +29,15 @@
   - EC2起動時にパブリックIPアドレスを設定した場合
     - 一応、パブリックIPアドレスを設定することはできる
     - しかし、private subnet に配置しているため、インターネットからのアクセスは不可
+    - NATゲートウェイを作った場合でも、インターネットからのアクセスは不可
     - インターネットへのアクセスも不可
-    - (この状態でNATゲートウェイを作った場合でも検証したい)
+      - NATゲートウェイを作れば、インターネットへのアクセスは可能 
+  - EC2起動時にパブリックIPアドレスを設定した場合
+    - インターネットからアクセス不可
+    -  
+      
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc2MTMzNjcsLTI2NzY1MjE5MSw0Mz
-E5MTIwODUsLTExMDAxOTQ1NjUsMTgwNjMzNzMwMCwzOTc0NTk3
-OCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTE0OTU1MTQxOCwtMjA3NzYxMzM2NywtMj
+Y3NjUyMTkxLDQzMTkxMjA4NSwtMTEwMDE5NDU2NSwxODA2MzM3
+MzAwLDM5NzQ1OTc4LDczMDk5ODExNl19
 -->
