@@ -34,10 +34,11 @@
       - NATゲートウェイを作れば、インターネットへのアクセスは可能 
   - EC2起動時にパブリックIPアドレスを設定した場合
     - インターネットからアクセス不可
-    -  
+    - インターネットへのアクセスも不可
+    　　- NATゲートウェイを作れば、可能 
       
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTU1MTQxOCwtMjA3NzYxMzM2NywtMj
+eyJoaXN0b3J5IjpbMTk0NzA3NDgzOSwtMjA3NzYxMzM2NywtMj
 Y3NjUyMTkxLDQzMTkxMjA4NSwtMTEwMDE5NDU2NSwxODA2MzM3
 MzAwLDM5NzQ1OTc4LDczMDk5ODExNl19
 -->
