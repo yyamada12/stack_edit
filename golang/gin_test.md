@@ -33,7 +33,18 @@ gin.CreateTestContext() を使う方法
 CreateTestContext は、 *gin.Contextと *gin.Engine を返してくる
 
 ### *gin.Context を使う方法
+gin.
+```go
+w := httptest.NewRecorder()
+c, _ := gin.CreateTestContext(w)
+c.Request, _ = http.NewRequest("GET", "/user/test", nil)
+c.Params = append(c.Params, gin.Param{Key: "name", Value: "test"})
 
+h.GetUser(c)
+
+assert.Equal(t, tt.expect, w.Body.String())
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NzA2NzA3LDEwMjk3ODg5NjJdfQ==
+eyJoaXN0b3J5IjpbLTIwNzU3MzI3NTIsODM1NzA2NzA3LDEwMj
+k3ODg5NjJdfQ==
 -->
