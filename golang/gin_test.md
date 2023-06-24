@@ -12,7 +12,11 @@ mockは使わず、本番と同じ router (setupRouter()で用意したrouter)�
 
 この流れでmockを使うなら、
 setupTestRouter() で適度にmockに置き換えたtest用のrouterを用意する形になりそう
-→ 
+↓
+テストケースによって、mockの返す値を変える、というのは面倒になりそう
+
+## 公式の方法2
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0ODM3MzE4XX0=
+eyJoaXN0b3J5IjpbLTIwOTY2MTIwMzVdfQ==
 -->
