@@ -31,7 +31,9 @@ setupTestRouter() で適度にmockに置き換えたtest用のrouterを用意す
 
 gin.CreateTestContext() を使う方法
 CreateTestContext は、 *gin.Contextと *gin.Engine を返してくる
-*gin.Context を使って、
+
+### *gin.Context を使う方法
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg4NTgyMTYsMTAyOTc4ODk2Ml19
+eyJoaXN0b3J5IjpbODM1NzA2NzA3LDEwMjk3ODg5NjJdfQ==
 -->
