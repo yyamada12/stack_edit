@@ -4,6 +4,18 @@ ginのtest
 
 ## 公式の方法
 https://gin-gonic.com/ja/docs/testing/
+```go
+func TestPingRoute(t *testing.T) {
+	router := setupRouter()
+
+	w := httptest.NewRecorder()
+	req, _ := http.NewRequest("GET", "/ping", nil)
+	router.ServeHTTP(w, req)
+
+	assert.Equal(t, 200, w.Code)
+	assert.Equal(t, "pong", w.Body.String())
+}
+```
 
 http.NewRequest()でリクエストを作成し、
 httptest.NewRecorder() でレスポンスを捕捉し、検証するという流れ
@@ -18,7 +30,8 @@ setupTestRouter() で適度にmockに置き換えたtest用のrouterを用意す
 ## 公式の方法2
 
 gin.CreateTestContext() を使う方法
-
+CreateTestContext は、 *gin.Contextと *gin.Engine を返してくる
+*gin.Context を使って、
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTc4ODk2Ml19
+eyJoaXN0b3J5IjpbLTE0Njg4NTgyMTYsMTAyOTc4ODk2Ml19
 -->
