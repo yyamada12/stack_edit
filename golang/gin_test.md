@@ -17,6 +17,8 @@ setupTestRouter() で適度にmockに置き換えたtest用のrouterを用意す
 
 ## 公式の方法2
 
+gin.CreateTestContext() を使う方法
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY2MTIwMzVdfQ==
+eyJoaXN0b3J5IjpbMTAyOTc4ODk2Ml19
 -->
