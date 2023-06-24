@@ -32,7 +32,9 @@ setupTestRouter() で適度にmockに置き換えたtest用のrouterを用意す
 gin.CreateTestContext() を使う方法
 CreateTestContext は、 *gin.Contextと *gin.Engine を返してくる
 
-### *gin.Context を使う方法
+正し、*gin.Engineを利用する場合、↓の問題がありそうhttps://github.com/gin-gonic/gin/issues/2778
+
+よって、 *gin.Context だけ利用して、handlerを直接呼び出すのがお作法っぽい
 
 ```go
 w := httptest.NewRecorder()
@@ -45,12 +47,9 @@ h.GetUser(c)
 assert.Equal(t, tt.expect, w.Body.String())
 ```
 
-gin.ContextにRequestや、ginが解析したrequestのParamsなどを設定する
-↓
-handlerの単体テストができるが、RequestのParamsとかを設定するのが二重管理になる
-
+ただし、gin.ContextにRequestだけでなく、Paramsとかも設定する必要がある
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDMzMDA4LDgzNTcwNjcwNywxMDI5Nz
-g4OTYyXX0=
+eyJoaXN0b3J5IjpbNzQ4NjYxNTYxLDE5MzAzMzAwOCw4MzU3MD
+Y3MDcsMTAyOTc4ODk2Ml19
 -->
