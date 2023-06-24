@@ -33,7 +33,7 @@ gin.CreateTestContext() を使う方法
 CreateTestContext は、 *gin.Contextと *gin.Engine を返してくる
 
 ### *gin.Context を使う方法
-gin.
+
 ```go
 w := httptest.NewRecorder()
 c, _ := gin.CreateTestContext(w)
@@ -44,7 +44,13 @@ h.GetUser(c)
 
 assert.Equal(t, tt.expect, w.Body.String())
 ```
+
+gin.ContextにRequestや、ginが解析したrequestのParamsなどを設定する
+↓
+handlerの単体テストができるが、RequestのParamsとかを設定するのが二重管理になる
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzU3MzI3NTIsODM1NzA2NzA3LDEwMj
-k3ODg5NjJdfQ==
+eyJoaXN0b3J5IjpbMTkzMDMzMDA4LDgzNTcwNjcwNywxMDI5Nz
+g4OTYyXX0=
 -->
