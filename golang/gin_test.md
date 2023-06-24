@@ -6,7 +6,9 @@ ginのtest
 https://gin-gonic.com/ja/docs/testing/
 
 http.NewRequestでリクエストを作成し、
-httptest.
+httptest.NewRecorder でレスポンスを捕捉し、検証するという流れ
+
+mockとか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDk3NjIxN119
+eyJoaXN0b3J5IjpbLTQzNTUxMDY4XX0=
 -->
