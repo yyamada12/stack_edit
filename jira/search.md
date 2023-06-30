@@ -9,7 +9,15 @@
 検索の仕方としては
 - 課題のキーを入れる
 - 課題の要約・説明・コメントに含まれる単語をフリーワードで探す
-- [スマート クエリ](https://ja.confluence.atlassian.com/jiracoreserver073/quick-searching-861257204.html#Quicksearching-Smartquerying)
+- [スマート クエリ](https://ja.confluence.atlassian.com/jiracoreserver073/quick-searching-861257204.html#Quicksearching-Smartquerying) を入れる
+
+
+2: 基本検索
+フィルターから、GUIで選ぶやつ。
+
+3: 詳細検索 (JQL)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwMDc2ODY4XX0=
+eyJoaXN0b3J5IjpbMTMyMDA5MDE2MV19
 -->
