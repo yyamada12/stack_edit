@@ -33,6 +33,11 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 - type (課題タイプ)
 
 
+#### ボードに含まれる課題を検索したい場合
+ボードは、フィルターによって構成されている
+よって、ボードに設定されているフィルターと
+
+
 
 
 ### 利用できる演算子、キーワード
@@ -64,5 +69,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTk4MzUxOCw3ODE4NDUyNzBdfQ==
+eyJoaXN0b3J5IjpbMTAxNzQ4MjU2OSw3ODE4NDUyNzBdfQ==
 -->
