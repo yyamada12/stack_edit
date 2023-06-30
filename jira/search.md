@@ -24,7 +24,7 @@ https://support.atlassian.com/jira-service-management-cloud/docs/what-is-advance
 ### 利用できる課題のフィールド一覧
 https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 代表的なところは、以下
-- approvals
+
 - assignee (担当者)
 - category
 - creator (課題の作成者、報告者とは一応別)
@@ -36,7 +36,8 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 →選択できるステータスを確認したい時は、workflowを確認すると良い
 - "epic link"
 - summary (要約: タイトルっぽく、課題の一番上に出るやつ)
-- 
+- description (説明: メインで色々書くところ)
+- comment
 
 
 **ボードに含まれる課題を検索したい場合**
@@ -78,5 +79,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzcxMzMyLDc4MTg0NTI3MF19
+eyJoaXN0b3J5IjpbMTk2Njc5ODYzNSw3ODE4NDUyNzBdfQ==
 -->
