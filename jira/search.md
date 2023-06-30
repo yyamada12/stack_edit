@@ -35,7 +35,8 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 - status
 →選択できるステータスを確認したい時は、workflowを確認すると良い
 - "epic link"
-
+- summary (要約: タイトルっぽく、課題の一番上に出るやつ)
+- 
 
 
 **ボードに含まれる課題を検索したい場合**
@@ -77,5 +78,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAwNjExOTQ4LDc4MTg0NTI3MF19
+eyJoaXN0b3J5IjpbLTk1NzcxMzMyLDc4MTg0NTI3MF19
 -->
