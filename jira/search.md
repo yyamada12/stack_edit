@@ -33,6 +33,9 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 → 選択できる課題タイプを確認したい時は、新規で課題を作成して、プルダウンの中身を確認すると良い
 - label 
 - status
+→選択できるステータスを確認したい時は、workflowを確認すると良い
+- "epic link"
+
 
 
 **ボードに含まれる課題を検索したい場合**
@@ -74,5 +77,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1ODY0NzQ0LDc4MTg0NTI3MF19
+eyJoaXN0b3J5IjpbNDAwNjExOTQ4LDc4MTg0NTI3MF19
 -->
