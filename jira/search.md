@@ -24,18 +24,19 @@ https://support.atlassian.com/jira-service-management-cloud/docs/what-is-advance
 ### 利用できる課題のフィールド一覧
 https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 
-代表的なところは、
+代表的なところは、以下
 - approvals
 - assignee (担当者)
 - category
 - creator (課題の作成者、報告者とは一応別)
 - reporter (報告者)
 - type (課題タイプ)
+- label 
 
 
 #### ボードに含まれる課題を検索したい場合
 ボードは、フィルターによって構成されている
-よって、ボードに設定されているフィルターと
+よって、ボードに設定されているフィルターと同じ内容をJQLに設定することで、ボード内の課題を検索することができる。
 
 
 
@@ -69,5 +70,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzQ4MjU2OSw3ODE4NDUyNzBdfQ==
+eyJoaXN0b3J5IjpbMTU5MTc0MTUyMCw3ODE4NDUyNzBdfQ==
 -->
