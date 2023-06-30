@@ -28,7 +28,8 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 - approvals
 - assignee (担当者)
 - category
-- 
+- creator (課題の作成者、報告者とは一応別)
+- reporter (報告者)
 
 
 
@@ -62,5 +63,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODA2Mjk3Nl19
+eyJoaXN0b3J5IjpbNzgxODQ1MjcwXX0=
 -->
