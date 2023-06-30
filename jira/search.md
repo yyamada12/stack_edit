@@ -40,7 +40,12 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 
 文字列系は、 ~ と !~ で検索する
 
-正規表現
+正規表現は使えないが、
+[専用の検索構文](https://ja.confluence.atlassian.com/jiracoreserver/search-syntax-for-text-fields-939937723.html)を利用できる
+
+`?` : 一文字のワイルドカード
+`*`: 複数文字のワイルドカード
+
 
 **ボードに含まれる課題を検索したい場合**
 ボードは、フィルターによって構成されている
@@ -81,5 +86,6 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTkzMjI1Nyw3ODE4NDUyNzBdfQ==
+eyJoaXN0b3J5IjpbMTkzNDkwMjU2MiwxOTQ5OTMyMjU3LDc4MT
+g0NTI3MF19
 -->
