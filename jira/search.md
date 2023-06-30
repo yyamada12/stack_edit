@@ -20,13 +20,34 @@ https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-se
 
 ## JQL
 
-利用できる課題のフィールド一覧
+### 利用できる課題のフィールド一覧
 https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 
 代表的なところは、
 - approvals
 - assignee
+- category
 - 
+
+
+
+
+### 利用できる、演算子
+https://support.atlassian.com/jira-software-cloud/docs/jql-operators/
+
+- =
+- !=
+- >
+- >=
+- IN
+- NOT IN
+- CONTAINES (~)
+- DOES NOT CONTAIN(!~)
+- IS
+- IS NOT
+- WAS
+- WAS IN
+あたりか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NDcyNjE2XX0=
+eyJoaXN0b3J5IjpbMTczMzAwODY4Nl19
 -->
