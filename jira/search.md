@@ -40,6 +40,8 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 
 文字列系は、 ~ と !~ で検索する
 
+正規表現
+
 **ボードに含まれる課題を検索したい場合**
 ボードは、フィルターによって構成されている
 よって、ボードに設定されているフィルターと同じ内容をJQLに設定することで、ボード内の課題を検索することができる。
@@ -79,5 +81,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxOTE3MDMxLDc4MTg0NTI3MF19
+eyJoaXN0b3J5IjpbMTk0OTkzMjI1Nyw3ODE4NDUyNzBdfQ==
 -->
