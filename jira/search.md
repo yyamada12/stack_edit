@@ -31,6 +31,7 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 - creator (課題の作成者、報告者とは一応別)
 - reporter (報告者)
 - type (課題タイプ)
+→ 選択できる課題タイプを確認したい時は、プロジェクト設定(管理者権限を持っているときのみ見れる)
 - label 
 
 
@@ -70,5 +71,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTc0MTUyMCw3ODE4NDUyNzBdfQ==
+eyJoaXN0b3J5IjpbMTA3NTgyMTMzNiw3ODE4NDUyNzBdfQ==
 -->
