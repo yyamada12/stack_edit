@@ -57,6 +57,10 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-keywords/
 - ORDER BY
 あたりを使いそう
 
+### 利用できる関数
+https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDU5MzMzNTBdfQ==
+eyJoaXN0b3J5IjpbLTExOTkyNTE4XX0=
 -->
