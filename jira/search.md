@@ -26,7 +26,6 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 代表的なところは、以下
 
 - assignee (担当者)
-- category
 - creator (課題の作成者、報告者とは一応別)
 - reporter (報告者)
 - type (課題タイプ)
@@ -34,11 +33,12 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 - label 
 - status
 →選択できるステータスを確認したい時は、workflowを確認すると良い
-- "epic link"
+- "epic link" (エピック名 or エピックの課題のキーを指定)
 - summary (要約: タイトルっぽく、課題の一番上に出るやつ)
 - description (説明: メインで色々書くところ)
 - comment
 
+文字列系は、 ~ と !~ で検索する
 
 **ボードに含まれる課題を検索したい場合**
 ボードは、フィルターによって構成されている
@@ -79,5 +79,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Njc5ODYzNSw3ODE4NDUyNzBdfQ==
+eyJoaXN0b3J5IjpbMTkxOTE3MDMxLDc4MTg0NTI3MF19
 -->
