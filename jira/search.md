@@ -32,6 +32,7 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 - type (課題タイプ)
 → 選択できる課題タイプを確認したい時は、新規で課題を作成して、プルダウンの中身を確認すると良い
 - label 
+- status
 
 
 **ボードに含まれる課題を検索したい場合**
@@ -39,7 +40,8 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 よって、ボードに設定されているフィルターと同じ内容をJQLに設定することで、ボード内の課題を検索することができる。
 
 **自分をフィルター条件に設定する場合**
-メールアドレスを指定すると、候補で出てくるっぽいが、 `currentUser()`
+メールアドレスを指定すると、候補で出てくるっぽいが、 `currentUser()`を指定するのでもいける
+ex) assignee = currentUser()
 
 
 
@@ -72,5 +74,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTEwNzc2MCw3ODE4NDUyNzBdfQ==
+eyJoaXN0b3J5IjpbMjI1ODY0NzQ0LDc4MTg0NTI3MF19
 -->
