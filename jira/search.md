@@ -30,6 +30,7 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 - category
 - creator (課題の作成者、報告者とは一応別)
 - reporter (報告者)
+- type (課題タイプ)
 
 
 
@@ -63,5 +64,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxODQ1MjcwXX0=
+eyJoaXN0b3J5IjpbMjA0MTk4MzUxOCw3ODE4NDUyNzBdfQ==
 -->
