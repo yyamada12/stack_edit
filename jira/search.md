@@ -46,6 +46,9 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 `?` : 一文字のワイルドカード
 `*`: 複数文字のワイルドカード
 
+`+`: 先頭につけると、その用語が必須で含まれることが条件となる
+`-`: 先頭につけると、その
+
 
 **ボードに含まれる課題を検索したい場合**
 ボードは、フィルターによって構成されている
@@ -86,6 +89,6 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDkwMjU2MiwxOTQ5OTMyMjU3LDc4MT
+eyJoaXN0b3J5IjpbMjAyODUxNTI3OSwxOTQ5OTMyMjU3LDc4MT
 g0NTI3MF19
 -->
