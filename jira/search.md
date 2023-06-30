@@ -18,7 +18,15 @@
 3: 詳細検索 (JQL)
 https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/
 
+## JQL
 
+利用できる課題のフィールド一覧
+https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
+
+代表的なところは、
+- approvals
+- assignee
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTAzOTcxNDRdfQ==
+eyJoaXN0b3J5IjpbMzY4NDcyNjE2XX0=
 -->
