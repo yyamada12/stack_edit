@@ -19,6 +19,7 @@
 https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/
 
 ## JQL
+https://support.atlassian.com/jira-service-management-cloud/docs/what-is-advanced-search-in-jira-cloud/
 
 ### 利用できる課題のフィールド一覧
 https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
@@ -32,8 +33,9 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 
 
 
-### 利用できる、演算子
+### 利用できる演算子、キーワード
 https://support.atlassian.com/jira-software-cloud/docs/jql-operators/
+https://support.atlassian.com/jira-software-cloud/docs/jql-keywords/
 
 - =
 - !=
@@ -47,7 +49,14 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-operators/
 - IS NOT
 - WAS
 - WAS IN
-あたりか
+- AND
+- OR
+- NOT
+- EMPTY
+- NULL
+- ORDER BY
+あたりを使いそう
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzAwODY4Nl19
+eyJoaXN0b3J5IjpbLTE2NDU5MzMzNTBdfQ==
 -->
