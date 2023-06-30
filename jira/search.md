@@ -16,8 +16,9 @@
 フィルターから、GUIで選ぶやつ。
 
 3: 詳細検索 (JQL)
+https://support.atlassian.com/jira-service-management-cloud/docs/use-advanced-search-with-jira-query-language-jql/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDA5MDE2MV19
+eyJoaXN0b3J5IjpbLTE1OTAzOTcxNDRdfQ==
 -->
