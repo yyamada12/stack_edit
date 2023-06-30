@@ -26,7 +26,7 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-fields/
 
 代表的なところは、
 - approvals
-- assignee
+- assignee (担当者)
 - category
 - 
 
@@ -62,5 +62,5 @@ https://support.atlassian.com/jira-software-cloud/docs/jql-functions/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTkyNTE4XX0=
+eyJoaXN0b3J5IjpbMTA0ODA2Mjk3Nl19
 -->
