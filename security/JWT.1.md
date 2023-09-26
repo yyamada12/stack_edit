@@ -7,6 +7,14 @@ https://assets.ctfassets.net/2ntc334xpx65/5HColfm15cUhMmDQnupNzd/30d5913d94e7946
 
 
 
+### 利用例
+- 認証 
+- 認可
+- フェデレーション アイデンティティ
+- クライアント側セッション ("ステートレスセッション")
+- クライアント側シークレット
+
+この辺りのつか
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyMTU5OF19
+eyJoaXN0b3J5IjpbLTc3NjQzOTI0M119
 -->
