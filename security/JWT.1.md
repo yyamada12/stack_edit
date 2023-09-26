@@ -14,7 +14,9 @@ https://assets.ctfassets.net/2ntc334xpx65/5HColfm15cUhMmDQnupNzd/30d5913d94e7946
 - クライアント側セッション ("ステートレスセッション")
 - クライアント側シークレット
 
-この辺りのつか
+この辺りの使い分けを意識するのが良さそう
+
+それぞれの用途ごとに複数のJWTを同時に使うことも普通にある模様
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjQzOTI0M119
+eyJoaXN0b3J5IjpbLTM5NzY4MzMxMF19
 -->
