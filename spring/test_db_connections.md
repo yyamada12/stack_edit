@@ -1,10 +1,12 @@
 # Spring test で DB コネクションあふれる問題
 
 SpringBootにおける @SpringBootApplicationTest では、テストごとにApplicationContextを作成する
-ApplicationContextをさい
+ApplicationContextを作るのは高コストなため、テストごとに使いまわせるように、Cacheにのり、デフォルトでは最大で20まで作成される。
+よって、コネクションプールの設定でコネクションプール数を20とかに設定していると、最大で 20 x 20 = 400 とかのコネクション数になり、DB側の最大コネクション数の設定を超えると、エラーになってしまう。
+開発し
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODI5NTAxNV19
+eyJoaXN0b3J5IjpbLTEzMDg4NjI4NzFdfQ==
 -->
