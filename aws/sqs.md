@@ -1,4 +1,3 @@
-# SQS 利用時の設計考慮点
 
 ## 
 
@@ -13,5 +12,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzYxMzI4OV19
+eyJoaXN0b3J5IjpbLTIwNDA3MzUwNzEsLTg1MzYxMzI4OV19
 -->
