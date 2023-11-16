@@ -3,7 +3,8 @@
 用語
 - コンシューマー 
 キューからメッセージを受信するシステム
-- 
+- プロデューサー
+キューにメッセージを送信するシステム
 
 ## メッセージの受信と削除・可視性タイムアウト
 https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
@@ -27,5 +28,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
+eyJoaXN0b3J5IjpbLTY5ODY2MjE2MCwtNzY3MDgyOTgzLC01Mz
+M2MDQyMzVdfQ==
 -->
