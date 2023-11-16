@@ -2,7 +2,7 @@
 
 用語
 - メッセージ
-キューに格納されるテキスト
+キューに格納されるデータ
 - コンシューマー 
 キューからメッセージを受信するシステム
 - プロデューサー
@@ -34,6 +34,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjUxODc5LC02OTg2NjIxNjAsLTc2Nz
-A4Mjk4MywtNTMzNjA0MjM1XX0=
+eyJoaXN0b3J5IjpbLTE3ODc3MTY3NjcsLTY5ODY2MjE2MCwtNz
+Y3MDgyOTgzLC01MzM2MDQyMzVdfQ==
 -->
