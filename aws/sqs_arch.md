@@ -38,9 +38,9 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
   - 配信順序が保証される (First-In-First-Out Delivery)
   - 同一メッセージは1度のみ配信される (Exactly-Once Processing)
 
-つまりスタンダードキューを選択した場合は
-- **処理が冪等であること**
-**
+つまりスタンダードキューを選択する場合は以下の2点を満たす必要がある
+- 処理が冪等であること
+- キューに入れた順序とキューから取り出す順序変わってしまっても問題ないこと
 
 ## メッセージサイズ
 
@@ -56,7 +56,7 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNTQyMzQzMSwtODc4NzQ4MjMxLDE5MD
-MyNjEzMjAsNTI5MzExOTc5LC02OTg2NjIxNjAsLTc2NzA4Mjk4
-MywtNTMzNjA0MjM1XX0=
+eyJoaXN0b3J5IjpbNTEwMDg0NjM3LC04Nzg3NDgyMzEsMTkwMz
+I2MTMyMCw1MjkzMTE5NzksLTY5ODY2MjE2MCwtNzY3MDgyOTgz
+LC01MzM2MDQyMzVdfQ==
 -->
