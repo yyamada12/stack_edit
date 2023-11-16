@@ -22,10 +22,11 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 逆に、処理が失敗した場合はあえてメッセージを削除しないことで、次回受信時にリトライができる
 そのため、どのようなタイミングでメッセージを削除するかどうかの検討が必要
 
-## パラメータ
+## 必須パラメータ
+### キューのタイプ
+https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-queue-types.html
 
-## 可視性タイムアウト
-
+スタンダードキューとFIFOキューがあり、どちらを利用するか選択する必要がある
 
 ## メッセージサイズ
 
@@ -41,6 +42,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4OTc1MzEsNTI5MzExOTc5LC02OTg2Nj
-IxNjAsLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
+eyJoaXN0b3J5IjpbLTEwODgwNTg0MTcsNTI5MzExOTc5LC02OT
+g2NjIxNjAsLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
 -->
