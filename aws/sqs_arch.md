@@ -1,5 +1,7 @@
 # SQS 利用時の設計考慮点
 
+## 
+
 用語
 - メッセージ
 キューに格納されるデータ
@@ -7,6 +9,8 @@
 キューからメッセージを受信するシステム
 - プロデューサー
 キューにメッセージを送信するシステム
+
+
 
 ## メッセージの受信と削除
 https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
@@ -36,6 +40,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5MzExOTc5LC02OTg2NjIxNjAsLTc2Nz
-A4Mjk4MywtNTMzNjA0MjM1XX0=
+eyJoaXN0b3J5IjpbLTExNjczNTI1ODUsNTI5MzExOTc5LC02OT
+g2NjIxNjAsLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
 -->
