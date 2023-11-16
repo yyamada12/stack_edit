@@ -1,6 +1,8 @@
 # SQS 利用時の設計考慮点
 
 用語
+- メッセージ
+キューに格納されるテキスト
 - コンシューマー 
 キューからメッセージを受信するシステム
 - プロデューサー
@@ -12,7 +14,8 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 受信しただけでは、キューに残り続けるので、
 処理が成功した場合は明示的にメッセージを削除することが必要
-逆に、処理が失敗した場合はメッセージを削除しないことで、次回受信時にり
+逆に、処理が失敗した場合はメッセージを削除しないことで、次回受信時にリトライができる
+そのため、どのようなタイミングでメッセージを削除するかどうかの検討が必要
 
 ## 可視性タイムアウト
 
@@ -31,6 +34,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MjgyNTc4OCwtNjk4NjYyMTYwLC03Nj
-cwODI5ODMsLTUzMzYwNDIzNV19
+eyJoaXN0b3J5IjpbLTIxMjUxODc5LC02OTg2NjIxNjAsLTc2Nz
+A4Mjk4MywtNTMzNjA0MjM1XX0=
 -->
