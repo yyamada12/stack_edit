@@ -1,8 +1,8 @@
 # SQS 利用時の設計考慮点
 
-## 
+## 前提知識
 
-用語
+### 基本用語
 - メッセージ
 キューに格納されるデータ
 - コンシューマー 
@@ -11,14 +11,15 @@
 キューにメッセージを送信するシステム
 
 
-
-## メッセージの受信と削除
+### メッセージの受信と削除
 https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
 > コンシューマーがキューからメッセージを受信して処理しても、そのメッセージはキューに保留されたままです。Amazon SQSでは、メッセージが自動的に削除されません。
 
+> コンシューマーはメッセージを受信して処理した後、キューからメッセージを削除する必要があります。
+
 メッセージを受信しただけでは、キューにメッセージが残り続けるので、
 処理が成功した場合は明示的にメッセージを削除することが必要
-逆に、処理が失敗した場合はメッセージを削除しないことで、次回受信時にリトライができる
+逆に、処理が失敗した場合はあえてメッセージを削除しないことで、次回受信時にリトライができる
 そのため、どのようなタイミングでメッセージを削除するかどうかの検討が必要
 
 
@@ -40,6 +41,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjczNTI1ODUsNTI5MzExOTc5LC02OT
-g2NjIxNjAsLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
+eyJoaXN0b3J5IjpbLTc4NTk5OTA4OSw1MjkzMTE5NzksLTY5OD
+Y2MjE2MCwtNzY3MDgyOTgzLC01MzM2MDQyMzVdfQ==
 -->
