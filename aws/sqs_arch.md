@@ -6,12 +6,15 @@
 - プロデューサー
 キューにメッセージを送信するシステム
 
-## メッセージの受信と削除・可視性タイムアウト
+## メッセージの受信と削除
 https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-visibility-timeout.html
 > コンシューマーがキューからメッセージを受信して処理しても、そのメッセージはキューに保留されたままです。Amazon SQSでは、メッセージが自動的に削除されません。
 
-メッセージは受信されると、可視性タイムアウトで設定した時間の間は、他の
+受信しただけでは、キューに残り続けるので、
+処理が成功した場合は明示的にメッセージを削除することが必要
+逆に、処理が失敗した場合はメッセージを削除しないことで、次回受信時にり
 
+## 可視性タイムアウト
 
 
 ## メッセージサイズ
@@ -28,6 +31,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODY2MjE2MCwtNzY3MDgyOTgzLC01Mz
-M2MDQyMzVdfQ==
+eyJoaXN0b3J5IjpbMTc5MjgyNTc4OCwtNjk4NjYyMTYwLC03Nj
+cwODI5ODMsLTUzMzYwNDIzNV19
 -->
