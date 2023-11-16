@@ -28,7 +28,10 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 スタンダードキューとFIFOキューがあり、どちらを利用するか選択する必要がある
 
-スタンダードキューの方が低コストかつ高スループット
+- スタンダードキュー
+低コストかつ高スループットだが制限が多い
+- FIFOキュー
+スタンダードキューによる制限を解消するが、
 
 ## メッセージサイズ
 
@@ -44,6 +47,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjE3MTExMyw1MjkzMTE5NzksLTY5OD
-Y2MjE2MCwtNzY3MDgyOTgzLC01MzM2MDQyMzVdfQ==
+eyJoaXN0b3J5IjpbLTE1MjE5ODE1ODAsNTI5MzExOTc5LC02OT
+g2NjIxNjAsLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
 -->
