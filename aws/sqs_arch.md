@@ -34,7 +34,9 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
   - 同一メッセージが複数回受信される可能性がある
 - FIFOキュー
 スタンダードキューによる制限を解消するが、コストが高く、スループットに制約がある
-  - 1秒あたり最大3000 
+  - 1秒あたり最大300のAPIコールをサポート (ただしクウォータの引き上げも可能)
+  - 配信順序が保証される
+  - 1回だけ 
 
 ## メッセージサイズ
 
@@ -50,6 +52,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc3MjQyNDIsNTI5MzExOTc5LC02OT
+eyJoaXN0b3J5IjpbLTIxMjAyMDU4ODgsNTI5MzExOTc5LC02OT
 g2NjIxNjAsLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
 -->
