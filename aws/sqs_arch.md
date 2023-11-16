@@ -32,13 +32,15 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 低コストかつ高スループット(1秒あたりほぼ無制限のAPIコールをサポート)だが以下の制約がある
   - 配信順序が保証されない (Best-Effort Ordering)
   - 同一メッセージが複数回配信される可能性がある (At-Least-Once Delivery )
-    - メッセージを削除していても、再度受信される可能性がある 
 - FIFOキュー
 スタンダードキューによる制限を解消するが、コストが高く、スループットに制約がある
   - 1秒あたり最大300のAPIコールをサポート (ただしクウォータの引き上げも可能)
   - 配信順序が保証される (First-In-First-Out Delivery)
-  - 同一メッセージは1度のみ配信される 
-    - 
+  - 同一メッセージは1度のみ配信される (Exactly-Once Processing)
+
+つまりスタンダードキューを選択した場合は
+- **処理が冪等であること**
+**
 
 ## メッセージサイズ
 
@@ -54,7 +56,7 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzIyNzc0MSwtODc4NzQ4MjMxLDE5MD
+eyJoaXN0b3J5IjpbMTgzNTQyMzQzMSwtODc4NzQ4MjMxLDE5MD
 MyNjEzMjAsNTI5MzExOTc5LC02OTg2NjIxNjAsLTc2NzA4Mjk4
 MywtNTMzNjA0MjM1XX0=
 -->
