@@ -22,7 +22,7 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 逆に、処理が失敗した場合はあえてメッセージを削除しないことで、次回受信時にリトライができる
 そのため、どのようなタイミングでメッセージを削除するかどうかの検討が必要
 
-
+## パラメータ
 
 ## 可視性タイムアウト
 
@@ -41,6 +41,6 @@ https://docs.aws.amazon.com/ja_jp/AWSSimpleQueueService/latest/SQSDeveloperGuide
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTk5OTA4OSw1MjkzMTE5NzksLTY5OD
-Y2MjE2MCwtNzY3MDgyOTgzLC01MzM2MDQyMzVdfQ==
+eyJoaXN0b3J5IjpbNDQ4OTc1MzEsNTI5MzExOTc5LC02OTg2Nj
+IxNjAsLTc2NzA4Mjk4MywtNTMzNjA0MjM1XX0=
 -->
