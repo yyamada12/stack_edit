@@ -65,15 +65,11 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
     - Target
       - 設定された target を表示する control
     - Actual
-    - actual を入力する control
-
-- Variance
-
-- actual と target の差を計算し、色付きで表示してくれる control
-
-- target を 10% 以上下回る場合は赤色
-
-- target を 5% 以上上回る場合は緑色
+      - actual を入力する control
+    - Variance
+      - actual と target の差を計算し、色付きで表示してくれる control
+        - target を 10% 以上下回る場合は赤色
+        - target を 5% 以上上回る場合は緑色
 
   
 
@@ -91,5 +87,5 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
 
 - 一方で、Variance に関しては、 Control と 1:1 ではなく、 Actual と Target によって値が決まるので、Form が Actual の変更イベントを検知して、Variance の screen state を更新する (これによって、 data binding で session state も更新される)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjcyMDQxNDldfQ==
+eyJoaXN0b3J5IjpbMTkzNTU1MTg0N119
 -->
