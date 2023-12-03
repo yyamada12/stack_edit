@@ -9,58 +9,31 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
   
 
 - 概念
-
-  
-
-- form
-
-- ユーザーが入力を行うためのパーツのまとまりのことをさしていそう
-
-- HTML でいえば、 form タグがそれに当たりそう
-
-- control
-
-- ユーザーが入力を行うためのパーツのことをさしていそう
-
-- HTML で言えば、 input タグがそれに当たりそう
-
-- widget
-
-- control と同じものを指していそう
-
-- widget というからには、form 以外のパーツに対しても widget というかも
-
-- 3 つの data
-
-- record state
-
-- データベースに永続化されたデータ
-
-- session state
-
-- アプリケーションのメモリ上に存在するデータ
-
-- メモリ上の record set にある、という表現が使われている (PoEEE に出てくる table data gateway のレコードセットのことだと思われる)
-
-- ユーザーがデータの保存操作をすると、record state とマージされる
-
-- screen state
-
-- GUI コンポーネント自体の中にある状態で、画面上に表示されているデータ
-
-- session state とどのように同期を取るかが重要
-
-- data binding
-
-- session state と screen state の同期を取るための方法
-
-- 一方の変更が、すぐにもう一方に反映されるための仕組み
-
-- 無限ループ(session state が更新され、それによって screen state が更新され、さらにそれによって session state が更新され、、、)を避ける必要があり、flow sync が使われる
-
-- application model, presentation model, view model
-
-- すべて同じものを指していそう?
+  - form
+    - ユーザーが入力を行うためのパーツのまとまりのことをさしていそう
+    - HTML でいえば、 form タグがそれに当たりそう
+  - control
+    - ユーザーが入力を行うためのパーツのことをさしていそう
+    - HTML で言えば、 input タグがそれに当たりそう
+  - widget
+    - control と同じものを指していそう
+    - widget というからには、form 以外のパーツに対しても widget というかも
+  - 3 つの data
+    - record state
+      - データベースに永続化されたデータ
+    - session state
+       - アプリケーションのメモリ上に存在するデータ
+      - メモリ上の record set にある、という表現が使われている (PoEEE に出てくる table data gateway のレコードセットのことだと思われる)
+      - ユーザーがデータの保存操作をすると、record state とマージされる
+    - screen state
+      - GUI コンポーネント自体の中にある状態で、画面上に表示されているデータ
+      - session state とどのように同期を取るかが重要
+  - data binding
+    - session state と screen state の同期を取るための方法
+    - 一方の変更が、すぐにもう一方に反映されるための仕組み
+    - 無限ループ(session state が更新され、それによって screen state が更新され、さらにそれによって session state が更新され、、、)を避ける必要があり、flow sync が使われる
+  - application model, presentation model, view model
+  - すべて同じものを指していそう?
 
 - 発展的に application model → presentation model → view model と進化していった?
 
@@ -154,5 +127,5 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
 
 - 一方で、Variance に関しては、 Control と 1:1 ではなく、 Actual と Target によって値が決まるので、Form が Actual の変更イベントを検知して、Variance の screen state を更新する (これによって、 data binding で session state も更新される)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MDEzODU1XX0=
+eyJoaXN0b3J5IjpbLTIyNTg3MTkxM119
 -->
