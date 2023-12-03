@@ -48,40 +48,24 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
     - view を描画する際に、明示的にモデルからデータを取得して反映するとか、ある control の更新を他の control に反映するために、form が手続き的に更新するとか。
 - サンプルで出てくる UI 要素の種類
   - セレクトボックス
-    - text を入力する field
+  - text を入力する field
     - 入力した値が、そのまま DB に保存される
   - text を出力する field
     - DB に保存されている値が、そのまま表示される
-
-- 他の text field から計算された値が表示される field
-
-- さらに、計算された値によって表示(色)が変化する
-
-  
-
+  - 他の text field から計算された値が表示される field
+    - さらに、計算された値によって表示(色)が変化する
 - サンプルアプリケーション
-
-- アイスクリーム粒子濃度管理システム
-
-- アイスクリーム濃度を記録し、目標値との差分を表示するためのシステム
-
-- 以下を含む form から形成される
-
-- Station ID
-
-- station ID を リストから選択できる control
-
-- Date
-
-- date を入力する control
-
-- Target
-
-- 設定された target を表示する control
-
-- Actual
-
-- actual を入力する control
+  - アイスクリーム粒子濃度管理システム
+    - アイスクリーム濃度を記録し、目標値との差分を表示するためのシステム
+  - 以下を含む form から形成される
+    - Station ID
+      - station ID を リストから選択できる control
+    - Date
+      - date を入力する control
+    - Target
+      - 設定された target を表示する control
+    - Actual
+    - actual を入力する control
 
 - Variance
 
@@ -107,5 +91,5 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
 
 - 一方で、Variance に関しては、 Control と 1:1 ではなく、 Actual と Target によって値が決まるので、Form が Actual の変更イベントを検知して、Variance の screen state を更新する (これによって、 data binding で session state も更新される)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxNjc4ODg3XX0=
+eyJoaXN0b3J5IjpbLTE1NjcyMDQxNDldfQ==
 -->
