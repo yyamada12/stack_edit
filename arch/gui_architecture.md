@@ -33,45 +33,25 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
     - 一方の変更が、すぐにもう一方に反映されるための仕組み
     - 無限ループ(session state が更新され、それによって screen state が更新され、さらにそれによって session state が更新され、、、)を避ける必要があり、flow sync が使われる
   - application model, presentation model, view model
-  - すべて同じものを指していそう?
+    - すべて同じものを指していそう?
+    - 発展的に application model → presentation model → view model と進化していった?
+    - (後の例の variance のような)ドメインに関係のない表示ロジックや表示用の state も管理できるような、view のための model
+    -  > The main difference between using an application model and classic MVC is that we now have an intermediate class between the domain model class (Reader) and the widget - this is the application model class.
 
-- 発展的に application model → presentation model → view model と進化していった?
-
-- (後の例の variance のような)ドメインに関係のない表示ロジックや表示用の state も管理できるような、view のための model
-
--  > The main difference between using an application model and classic MVC is that we now have an intermediate class between the domain model class (Reader) and the widget - this is the application model class.
-
-- flow sync vs observer sync
-
-- observer sync は observer パターン で同期する
-
-- 更新される側は、あらかじめ更新を通知すべき object が登録されている。
-
-- 更新される側は、登録されている object に関しては知らない。observer interface さえ満たしていれば良い。
-
-- 更新された際には、登録されている object 全てに更新を通知する。
-
-- flow sync は手続き的に更新する
-
-- A を更新した際に、どの object に反映させなければならないかを知っているオブジェクトが存在。
-
-- view を描画する際に、明示的にモデルからデータを取得して反映するとか、ある control の更新を他の control に反映するために、form が手続き的に更新するとか。
-
-  
-
+  - flow sync vs observer sync
+    - observer sync は observer パターン で同期する
+      - 更新される側は、あらかじめ更新を通知すべき object が登録されている。
+      - 更新される側は、登録されている object に関しては知らない。observer interface さえ満たしていれば良い。
+      - 更新された際には、登録されている object 全てに更新を通知する。
+    - flow sync は手続き的に更新する
+      - A を更新した際に、どの object に反映させなければならないかを知っているオブジェクトが存在。
+    - view を描画する際に、明示的にモデルからデータを取得して反映するとか、ある control の更新を他の control に反映するために、form が手続き的に更新するとか。
 - サンプルで出てくる UI 要素の種類
-
-  
-
-- セレクトボックス
-
-- text を入力する field
-
-- 入力した値が、そのまま DB に保存される
-
-- text を出力する field
-
-- DB に保存されている値が、そのまま表示される
+  - セレクトボックス
+    - text を入力する field
+    - 入力した値が、そのまま DB に保存される
+  - text を出力する field
+    - DB に保存されている値が、そのまま表示される
 
 - 他の text field から計算された値が表示される field
 
@@ -127,5 +107,5 @@ https://www.martinfowler.com/eaaDev/uiArchs.html
 
 - 一方で、Variance に関しては、 Control と 1:1 ではなく、 Actual と Target によって値が決まるので、Form が Actual の変更イベントを検知して、Variance の screen state を更新する (これによって、 data binding で session state も更新される)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTg3MTkxM119
+eyJoaXN0b3J5IjpbOTUxNjc4ODg3XX0=
 -->
