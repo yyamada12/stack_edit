@@ -52,7 +52,29 @@ poetry env remove <削除したいenv>
 という形で一度削除してから poetry install しなおせば良い
 
 
-
+### launch.json
+```
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--reload"
+            ],
+            "jinja": true,
+            "justMyCode": true,
+        }
+    ]
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTMxMDIzM119
+eyJoaXN0b3J5IjpbLTQzNDU3MTE5NCwxOTI5MzEwMjMzXX0=
 -->
