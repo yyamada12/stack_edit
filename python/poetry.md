@@ -31,10 +31,18 @@ virtualenv の作成 + 依存関係のインストール
 
 https://zenn.dev/pesuchin/articles/4c128aeb60cb42204311
 
-とりあえず
+以下の3つのやり方があるが、ブログでおすすめしているように3つ目一択
+-   poetry shellで仮想環境に切り替えてからVSCodeを開く
+-   .vscode/setting.jsonにpoetryによって自動生成された仮想環境のパスを入力する
+-   プロジェクト直下で仮想環境を作成するようにPoetryの設定を変更する(個人的におすすめ)
+
+
+poetry install する前に以下の設定を入れておく
 ```
 poetry config virtualenvs.in-project true
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjM3ODkxOF19
+eyJoaXN0b3J5IjpbOTI0NjEyMDU5XX0=
 -->
