@@ -26,7 +26,15 @@ virtualenv の作成 + 依存関係のインストール
 
 ## VSCodeでのデバッグ
 
-まず、 vscode での
+まず、 vscode に poetry が作成した仮想環境を認識してもらう必要がある
+
+
+https://zenn.dev/pesuchin/articles/4c128aeb60cb42204311
+
+とりあえず
+```
+poetry config virtualenvs.in-project true
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI3NDc1NTZdfQ==
+eyJoaXN0b3J5IjpbMTkxNjM3ODkxOF19
 -->
