@@ -6,13 +6,16 @@
 
 
 ## Create document
-- Set
+- *DocumentRef.Set
+    -  documentに対して、IDを指定した上で作成する
 	- デフォルトだと、完全に上書きされる
 	- optionとして、 merge を指定すると既存のドキュメントとmergeされる
 
-- 
+- Add
+  - collectionに対して、ドキュメントが新規追加される
+ - IDは自動採番される	
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk3MjEyOTQsMTU3NTM0MTU1OV19
+eyJoaXN0b3J5IjpbLTE0ODIyMDA5NzcsMTU3NTM0MTU1OV19
 -->
