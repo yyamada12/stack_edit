@@ -52,8 +52,12 @@ updateのオプション
 	- mapに対する操作ができる
 - firestore.Increment
 	- 数値の増減ができる
-- 
+- firestore.Delete
+  -   フィールドを削除できる
+
+## Delete Document
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjY5ODM0NiwtNjI3NzE1NjEwLDE1Nz
+eyJoaXN0b3J5IjpbMTk1NjYzMDAzNCwtNjI3NzE1NjEwLDE1Nz
 UzNDE1NTldfQ==
 -->
