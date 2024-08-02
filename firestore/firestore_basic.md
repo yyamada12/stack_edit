@@ -35,8 +35,16 @@ docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
   - IDの採番だけやってくれる
   - *DocumentRefが返ってくるので、それを使って Setを呼び出す
 
-## Update Docu
+## Update Document
+- *DocumentRef.Set
+	- Create 同様
+
+- *DocumentRef.Update
+  - []firestore.Updateを利用して更新する
+  - 上書きの危険はない
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA1NzUxNjYsLTYyNzcxNTYxMCwxNT
-c1MzQxNTU5XX0=
+eyJoaXN0b3J5IjpbLTE5MTMzODMyNywtNjI3NzE1NjEwLDE1Nz
+UzNDE1NTldfQ==
 -->
