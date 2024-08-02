@@ -46,8 +46,13 @@ docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
 updateのオプション
 - firestore.ServerTimestamp
 	- current_timestampにupdateする
-- 
+- firestore.ArrayUnion, firestore.ArrayRemove
+	- 配列に対する操作ができる
+- パスを.で繋げて指定
+	- mapに対する操作ができる
+- firestore.Increment
+	- numberの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1ODkzMTk0MywtNjI3NzE1NjEwLDE1Nz
+eyJoaXN0b3J5IjpbMTU3MTE5NjQ4MSwtNjI3NzE1NjEwLDE1Nz
 UzNDE1NTldfQ==
 -->
