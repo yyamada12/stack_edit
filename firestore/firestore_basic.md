@@ -51,8 +51,9 @@ updateのオプション
 - パスを.で繋げて指定
 	- mapに対する操作ができる
 - firestore.Increment
-	- numberの
+	- 数値の増減ができる
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTE5NjQ4MSwtNjI3NzE1NjEwLDE1Nz
+eyJoaXN0b3J5IjpbMTU1NjY5ODM0NiwtNjI3NzE1NjEwLDE1Nz
 UzNDE1NTldfQ==
 -->
