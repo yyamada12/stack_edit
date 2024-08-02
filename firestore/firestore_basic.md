@@ -44,8 +44,10 @@ docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
   - 上書きの危険はない
 
 updateのオプション
-- firestore.
+- firestore.ServerTimestamp
+	- current_timestampにupdateする
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI0NTYzMDQsLTYyNzcxNTYxMCwxNT
-c1MzQxNTU5XX0=
+eyJoaXN0b3J5IjpbLTY1ODkzMTk0MywtNjI3NzE1NjEwLDE1Nz
+UzNDE1NTldfQ==
 -->
