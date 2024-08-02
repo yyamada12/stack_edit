@@ -5,6 +5,7 @@
   - collection → document → sub collection → document という形で交互にネストしていくことは可能
 
 
+# how to with golang 
 ## Create document
 - *DocumentRef.Set
     -  documentに対して、IDを指定した上で作成する
@@ -34,8 +35,8 @@ docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
   - IDの採番だけやってくれる
   - *DocumentRefが返ってくるので、それを使って Setを呼び出す
 
-
+## Update Docu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgyNDIyNiwtNjI3NzE1NjEwLDE1Nz
-UzNDE1NTldfQ==
+eyJoaXN0b3J5IjpbLTExMzA1NzUxNjYsLTYyNzcxNTYxMCwxNT
+c1MzQxNTU5XX0=
 -->
