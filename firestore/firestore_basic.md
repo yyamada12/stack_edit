@@ -15,7 +15,7 @@
 result, err := client.Collection("dummy").Doc("dummy").Set(ctx, dummy)
 ```
 
-- CollectionRef.Add
+- *CollectionRef.Add
   - collectionに対して、ドキュメントが新規追加される
   - IDは自動採番される
 
@@ -23,9 +23,11 @@ result, err := client.Collection("dummy").Doc("dummy").Set(ctx, dummy)
 docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
 ```
 
-- CollectionRef.NewDoc()
+- *CollectionRef.NewDoc()
+  - IDの採番だけやってくれる
+  - *DocumentRefが返ってくるので、それを使って Setを呼び出す
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDEwOTQyMiwxNTc1MzQxNTU5XX0=
+eyJoaXN0b3J5IjpbLTYyNzcxNTYxMCwxNTc1MzQxNTU5XX0=
 -->
