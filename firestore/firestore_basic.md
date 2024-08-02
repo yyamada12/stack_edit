@@ -11,10 +11,21 @@
 	- デフォルトだと、完全に上書きされる
 	- optionとして、 merge を指定すると既存のドキュメントとmergeされる
 
-- Add
+```
+result, err := client.Collection("dummy").Doc("dummy").Set(ctx, dummy)
+```
+
+- CollectionRef.Add
   - collectionに対して、ドキュメントが新規追加される
   - IDは自動採番される
-  - 
+
+```
+docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
+```
+
+- CollectionRef.NewDoc()
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTg5NjkwNjgsMTU3NTM0MTU1OV19
+eyJoaXN0b3J5IjpbMTQxNDEwOTQyMiwxNTc1MzQxNTU5XX0=
 -->
