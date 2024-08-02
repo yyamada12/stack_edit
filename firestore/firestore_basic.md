@@ -10,8 +10,9 @@
 	- デフォルトだと、完全に上書きされる
 	- optionとして、 merge を指定すると既存のドキュメントとmergeされる
 
+- 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTM0MTU1OV19
+eyJoaXN0b3J5IjpbLTIxMTk3MjEyOTQsMTU3NTM0MTU1OV19
 -->
