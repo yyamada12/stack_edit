@@ -13,9 +13,8 @@
 
 - Add
   - collectionに対して、ドキュメントが新規追加される
- - IDは自動採番される	
-
-> Written with [StackEdit](https://stackedit.io/).
+  - IDは自動採番される
+  - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIyMDA5NzcsMTU3NTM0MTU1OV19
+eyJoaXN0b3J5IjpbLTEwMTg5NjkwNjgsMTU3NTM0MTU1OV19
 -->
