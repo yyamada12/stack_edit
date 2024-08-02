@@ -56,8 +56,12 @@ updateのオプション
   -   フィールドを削除できる
 
 ## Delete Document
-
+- *DocumentRef.Delete
+	- これ一択
+	- **サブコレクションは削除されない**
+	- サブコレクションは、コレクションの中のドキュメントを全て消す必要がある
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjYzMDAzNCwtNjI3NzE1NjEwLDE1Nz
-UzNDE1NTldfQ==
+eyJoaXN0b3J5IjpbLTE2MTQ2MTQ1MzgsLTYyNzcxNTYxMCwxNT
+c1MzQxNTU5XX0=
 -->
