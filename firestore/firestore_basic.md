@@ -43,8 +43,9 @@ docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
   - []firestore.Updateを利用して更新する
   - 上書きの危険はない
 
-
+updateのオプション
+- firestore.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTMzODMyNywtNjI3NzE1NjEwLDE1Nz
-UzNDE1NTldfQ==
+eyJoaXN0b3J5IjpbLTExODI0NTYzMDQsLTYyNzcxNTYxMCwxNT
+c1MzQxNTU5XX0=
 -->
