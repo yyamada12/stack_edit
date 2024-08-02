@@ -60,8 +60,9 @@ updateのオプション
 	- これ一択
 	- **サブコレクションは削除されない**
 	- サブコレクションは、コレクションの中のドキュメントを全て消す必要がある
-	- 
+	- *DocumentRef.Collections でサブコレクションのCollectionRefがiterator で取得できるので、そこから再帰的に消す形になる
+	- cloud functionに実装して、それを呼び出すの
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQ2MTQ1MzgsLTYyNzcxNTYxMCwxNT
-c1MzQxNTU5XX0=
+eyJoaXN0b3J5IjpbLTE4NDkxODYyNzcsLTE2MTQ2MTQ1MzgsLT
+YyNzcxNTYxMCwxNTc1MzQxNTU5XX0=
 -->
