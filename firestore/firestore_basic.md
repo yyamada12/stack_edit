@@ -15,6 +15,13 @@
 result, err := client.Collection("dummy").Doc("dummy").Set(ctx, dummy)
 ```
 
+- *DocumentRef.Create
+    -  documentに対して、IDを指定した上で作成する
+	- 同一のIDがすでに存在すると、エラーになる
+```
+result, err := client.Collection("dummy").Doc("dummy").Create(ctx, dummy)
+```
+
 - *CollectionRef.Add
   - collectionに対して、ドキュメントが新規追加される
   - IDは自動採番される
@@ -29,5 +36,6 @@ docRef, result, err := client.Collection("dummy").Add(ctx, dummy)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzcxNTYxMCwxNTc1MzQxNTU5XX0=
+eyJoaXN0b3J5IjpbLTEyMjgyNDIyNiwtNjI3NzE1NjEwLDE1Nz
+UzNDE1NTldfQ==
 -->
