@@ -19,6 +19,8 @@
   - 日本語
 	  -  ¥キーで入力する文字→バックスラッシュ
  - ユーザ辞書
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQ0MzU1NDFdfQ==
+eyJoaXN0b3J5IjpbMTM5Nzg4MTY3LC0xMDM0NDM1NTQxXX0=
 -->
