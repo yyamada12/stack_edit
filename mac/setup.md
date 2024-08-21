@@ -27,8 +27,14 @@
 ### ロック画面
 - バッテリー駆動時に使用していない場合はディスプレイをオフにする→20分くらい
 
+### インターネットアカウント
+- 適宜追加する
+
+## Dock
+不要なものを削除する
+
 ## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTQ3ODAwMCw3ODIxODU1MTIsLTEwMz
-Q0MzU1NDFdfQ==
+eyJoaXN0b3J5IjpbLTEyNzY2NTk5MjEsNzgyMTg1NTEyLC0xMD
+M0NDM1NTQxXX0=
 -->
