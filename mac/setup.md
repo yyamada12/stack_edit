@@ -38,8 +38,10 @@
 https://github.com/yyamada12/dotfiles
 
 ## chrome
-プロファイルとキーの設定
+プロファイルとキーボードショートカットの設定
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODk1MjgyOCw3ODIxODU1MTIsLTEwMz
+eyJoaXN0b3J5IjpbLTk5Mzk4MDM0OSw3ODIxODU1MTIsLTEwMz
 Q0MzU1NDFdfQ==
 -->
