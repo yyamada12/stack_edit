@@ -33,8 +33,13 @@
 ## Dock
 不要なものを削除する
 
-## 
+## dotfiles
+
+https://github.com/yyamada12/dotfiles
+
+## chrome
+プロファイルとキーの設定
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY2NTk5MjEsNzgyMTg1NTEyLC0xMD
-M0NDM1NTQxXX0=
+eyJoaXN0b3J5IjpbMTI2ODk1MjgyOCw3ODIxODU1MTIsLTEwMz
+Q0MzU1NDFdfQ==
 -->
