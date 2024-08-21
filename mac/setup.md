@@ -42,8 +42,9 @@ https://github.com/yyamada12/dotfiles
 
 ## iterm
 - Profiles
-  - Work
+  - Working Directory → Reuse previous sessions's directory
+  - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTU0OTczNywtOTkzOTgwMzQ5LDc4Mj
-E4NTUxMiwtMTAzNDQzNTU0MV19
+eyJoaXN0b3J5IjpbLTE0ODAxMjY1MTAsLTk5Mzk4MDM0OSw3OD
+IxODU1MTIsLTEwMzQ0MzU1NDFdfQ==
 -->
