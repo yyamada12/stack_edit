@@ -24,6 +24,8 @@
 - スペースを拡大
 - Night Shift
 
+### ロック画面
+- バッテリー駆動時に使用していない場合はディスプレイをオフにする→20分くらい
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDg1NDUyMiwtMTAzNDQzNTU0MV19
+eyJoaXN0b3J5IjpbNzgyMTg1NTEyLC0xMDM0NDM1NTQxXX0=
 -->
