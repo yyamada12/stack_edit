@@ -2,12 +2,17 @@
 
 ## システム環境設定
 ### トラックパッド
+- 軌跡の速さ→最速
 -  タップでクリック
-- アプリExpose
+- アプリExpose → 4本指で下にスワイプ
+### キーボード
+- リピート速度→最速
+- リピート入力認識までの時間→最速
+
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMzg4MzY0XX0=
+eyJoaXN0b3J5IjpbLTIxMTI1MzkzOTNdfQ==
 -->
