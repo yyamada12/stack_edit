@@ -26,6 +26,9 @@
 
 ### ロック画面
 - バッテリー駆動時に使用していない場合はディスプレイをオフにする→20分くらい
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMTg1NTEyLC0xMDM0NDM1NTQxXX0=
+eyJoaXN0b3J5IjpbLTc2MTQ3ODAwMCw3ODIxODU1MTIsLTEwMz
+Q0MzU1NDFdfQ==
 -->
