@@ -10,11 +10,13 @@
 - リピート入力認識までの時間→最速
 - 入力ソース
   - すべての入力ソース
-	  - スマートインy 
+	  - スマート引用符とスマートダッシュ→オフ
+  - 日本語
+	  -  ¥キーで入力する文字→
 
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMDQxMDAwNV19
+eyJoaXN0b3J5IjpbODMwNTYyMTA3XX0=
 -->
