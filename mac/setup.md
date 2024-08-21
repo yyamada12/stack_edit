@@ -40,8 +40,10 @@ https://github.com/yyamada12/dotfiles
 ## chrome
 プロファイルとキーボードショートカットの設定
 
-
+## iterm
+- Profiles
+  - Work
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5Mzk4MDM0OSw3ODIxODU1MTIsLTEwMz
-Q0MzU1NDFdfQ==
+eyJoaXN0b3J5IjpbMTA1OTU0OTczNywtOTkzOTgwMzQ5LDc4Mj
+E4NTUxMiwtMTAzNDQzNTU0MV19
 -->
