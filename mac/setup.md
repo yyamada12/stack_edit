@@ -13,6 +13,7 @@
 	  - スマート引用符とスマートダッシュ→オフ
   - 日本語
 	  -  ¥キーで入力する文字→バックスラッシュ
+ - ユーザ辞書
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTcxMzM5Ml19
+eyJoaXN0b3J5IjpbLTEwMDE5ODE5MjldfQ==
 -->
