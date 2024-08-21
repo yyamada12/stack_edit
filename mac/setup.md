@@ -12,11 +12,7 @@
   - すべての入力ソース
 	  - スマート引用符とスマートダッシュ→オフ
   - 日本語
-	  -  ¥キーで入力する文字→
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+	  -  ¥キーで入力する文字→バックスラッシュ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwNTYyMTA3XX0=
+eyJoaXN0b3J5IjpbMTQzNTcxMzM5Ml19
 -->
