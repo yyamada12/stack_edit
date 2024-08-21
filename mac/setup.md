@@ -46,8 +46,11 @@ https://github.com/yyamada12/dotfiles
  - Keys
 	 - Hotkey 
 
-## 
+## zprofile
+
+## screenshot
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Mjc1NDEzMywtNTQ3NTUxNzc3LC05OT
+eyJoaXN0b3J5IjpbMTg5NzAzNzg4MiwtNTQ3NTUxNzc3LC05OT
 M5ODAzNDksNzgyMTg1NTEyLC0xMDM0NDM1NTQxXX0=
 -->
