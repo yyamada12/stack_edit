@@ -20,7 +20,10 @@
 	  -  ¥キーで入力する文字→バックスラッシュ
  - ユーザ辞書
 
+### ディスプレイ
+- スペースを拡大
+- Night Shift
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Nzg4MTY3LC0xMDM0NDM1NTQxXX0=
+eyJoaXN0b3J5IjpbLTU2MDg1NDUyMiwtMTAzNDQzNTU0MV19
 -->
