@@ -27,6 +27,10 @@
 ### ロック画面
 - バッテリー駆動時に使用していない場合はディスプレイをオフにする→20分くらい
 
+## コントロールセンター
+- バッテリー→割合(%)を表示
+- 
+ 
 ### インターネットアカウント
 - 適宜追加する
 
@@ -51,6 +55,7 @@ https://github.com/yyamada12/dotfiles
 ## screenshot
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzAzNzg4MiwtNTQ3NTUxNzc3LC05OT
-M5ODAzNDksNzgyMTg1NTEyLC0xMDM0NDM1NTQxXX0=
+eyJoaXN0b3J5IjpbMTk5NDUzNjA0MCwxODk3MDM3ODgyLC01ND
+c1NTE3NzcsLTk5Mzk4MDM0OSw3ODIxODU1MTIsLTEwMzQ0MzU1
+NDFdfQ==
 -->
