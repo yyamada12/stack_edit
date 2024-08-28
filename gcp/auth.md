@@ -2,6 +2,10 @@
 
 ref: https://cloud.google.com/docs/authentication
 
+## アカウントの種類
+
+
+
 ## gcloud CLIの場合
 
 https://cloud.google.com/docs/authentication/gcloud?hl=ja
@@ -57,6 +61,6 @@ GOOGLE_APPLICATION_CREDENTIALS にも デフォルトのパスにも認証情報
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY4MDQwMzAsLTExMjI1OTg4MjQsLT
-U5MDM0NTEyNl19
+eyJoaXN0b3J5IjpbLTY5NTAyOTM1NCwtMTEyMjU5ODgyNCwtNT
+kwMzQ1MTI2XX0=
 -->
