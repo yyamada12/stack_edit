@@ -31,8 +31,13 @@ gcloud config set account `ACCOUNT`
 gcloud auth login --cred-file=xxx
 ```
 
-### 
+### Cloud Shell, GCP上のサーバ内
+自動的に認証されるため明示的にloginは不要
+
+
+## application の場合
+ADC() と呼ばれる仕組みになる
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM4MzE5ODUsLTExMjI1OTg4MjQsLT
-U5MDM0NTEyNl19
+eyJoaXN0b3J5IjpbMzU3NzIwMTY2LC0xMTIyNTk4ODI0LC01OT
+AzNDUxMjZdfQ==
 -->
