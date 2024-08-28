@@ -7,13 +7,20 @@ ref: https://cloud.google.com/docs/authentication
 https://cloud.google.com/docs/authentication/gcloud?hl=ja
 
 ### ローカル環境
+1: user 認証を使って、ログインする場合
 ```
 gcloud auth login
 ```
-でlogin する
+でブラウザから認証できる
+
+```
+gcloud au
 
 
+```
+gcloud auth login --cred-file=xxx
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxOTUwMzMxLC0xMTIyNTk4ODI0LC01OT
-AzNDUxMjZdfQ==
+eyJoaXN0b3J5IjpbLTg1NTM5MzM2NiwtMTEyMjU5ODgyNCwtNT
+kwMzQ1MTI2XX0=
 -->
