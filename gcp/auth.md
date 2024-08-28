@@ -2,11 +2,18 @@
 
 ref: https://cloud.google.com/docs/authentication
 
-## gcloud コマンドの場合
+## gcloud CLIの場合
+
+https://cloud.google.com/docs/authentication/gcloud?hl=ja
+
+### ローカル環境
 ```
 gcloud auth login
 ```
 でlogin する
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI1OTg4MjQsLTU5MDM0NTEyNl19
+eyJoaXN0b3J5IjpbNjgxOTUwMzMxLC0xMTIyNTk4ODI0LC01OT
+AzNDUxMjZdfQ==
 -->
