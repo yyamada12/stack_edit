@@ -36,8 +36,15 @@ gcloud auth login --cred-file=xxx
 
 
 ## application の場合
-ADC() と呼ばれる仕組みになる
+
+https://cloud.google.com/docs/authentication/application-default-credentials
+
+ADC(Application Default Credentials ) と呼ばれる仕組みになる
+
+1: GOOGLE_APPLICATION_CREDENTIALS に認証用のjsonファイルを指定する
+
+json としては、 サービスアカウントや、 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3NzIwMTY2LC0xMTIyNTk4ODI0LC01OT
-AzNDUxMjZdfQ==
+eyJoaXN0b3J5IjpbLTYxMjY3NDY0NywtMTEyMjU5ODgyNCwtNT
+kwMzQ1MTI2XX0=
 -->
