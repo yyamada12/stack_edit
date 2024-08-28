@@ -2,7 +2,11 @@
 
 ref: https://cloud.google.com/docs/authentication
 
-## アカウントの種類
+## user identity and workload identity
+https://cloud.google.com/iam/docs/google-identities
+
+人間が使う、 user 用の identity とシステムが使う workload 用の identity が存在する
+
 
 
 
@@ -61,6 +65,6 @@ GOOGLE_APPLICATION_CREDENTIALS にも デフォルトのパスにも認証情報
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTAyOTM1NCwtMTEyMjU5ODgyNCwtNT
+eyJoaXN0b3J5IjpbLTY0NjA3NjA0NCwtMTEyMjU5ODgyNCwtNT
 kwMzQ1MTI2XX0=
 -->
