@@ -45,9 +45,15 @@ ADC(Application Default Credentials ) と呼ばれる仕組みになる
 
 json としては、 サービスアカウントや、IdPを通して手にいれる認証情報ファイルがある
 
-2: デフォルトのせt
+2: デフォルトのパスに認証ファイルを配置する
+GOOGLE_APPLICATION_CREDENTIALS が設定されていない場合は以下のパスを見に行ってくれる
+```
 $HOME/.config/gcloud/application_default_credentials.json 
+```
+
+3: metadata server を見に行く
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDkyNDE5LC0xMTIyNTk4ODI0LC01OT
-AzNDUxMjZdfQ==
+eyJoaXN0b3J5IjpbMjA4MDEwNDYzMSwtMTEyMjU5ODgyNCwtNT
+kwMzQ1MTI2XX0=
 -->
