@@ -43,8 +43,11 @@ ADC(Application Default Credentials ) と呼ばれる仕組みになる
 
 1: GOOGLE_APPLICATION_CREDENTIALS に認証用のjsonファイルを指定する
 
-json としては、 サービスアカウントや、 
+json としては、 サービスアカウントや、IdPを通して手にいれる認証情報ファイルがある
+
+2: デフォルトのせt
+$HOME/.config/gcloud/application_default_credentials.json 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjY3NDY0NywtMTEyMjU5ODgyNCwtNT
-kwMzQ1MTI2XX0=
+eyJoaXN0b3J5IjpbMTk0NDkyNDE5LC0xMTIyNTk4ODI0LC01OT
+AzNDUxMjZdfQ==
 -->
