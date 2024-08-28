@@ -7,7 +7,8 @@ https://cloud.google.com/iam/docs/google-identities
 
 人間が使う、 user 用の identity とシステムが使う workload 用の identity が存在する
 
-workload用の identity 
+サービスアカウントは、 workload用の identity の代表
+user 用の identity で認証して、 サービスアカウントの権限を利用することもできる
 
 CLIの場合は、 user 用の identity を使って認証することもできるし、 workload 用の identity を使って認証することもできる
 
@@ -67,6 +68,6 @@ GOOGLE_APPLICATION_CREDENTIALS にも デフォルトのパスにも認証情報
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTI1MTA5LC0xMTIyNTk4ODI0LC01OT
+eyJoaXN0b3J5IjpbNDc2MjcwNjUzLC0xMTIyNTk4ODI0LC01OT
 AzNDUxMjZdfQ==
 -->
