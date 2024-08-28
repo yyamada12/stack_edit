@@ -51,9 +51,12 @@ GOOGLE_APPLICATION_CREDENTIALS が設定されていない場合は以下のパ�
 $HOME/.config/gcloud/application_default_credentials.json 
 ```
 
-3: metadata server を見に行く
+3: metadata server 
+GOOGLE_APPLICATION_CREDENTIALS にも デフォルトのパスにも認証情報がない場合は、 metadata server を見に行く  
+これはGCPのサーバーから参照される想定のもの
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDEwNDYzMSwtMTEyMjU5ODgyNCwtNT
-kwMzQ1MTI2XX0=
+eyJoaXN0b3J5IjpbLTE5MzY4MDQwMzAsLTExMjI1OTg4MjQsLT
+U5MDM0NTEyNl19
 -->
