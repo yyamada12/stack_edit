@@ -20,6 +20,8 @@ https://github.com/openai/tiktoken?tab=readme-ov-file
 
 参考: https://zenn.dev/microsoft/articles/3438cf410cc0b5
 
+※ legacy の completion と chat completion があるので注意
+
 ### chat completion
 
 https://platform.openai.com/docs/api-reference/chat/create
@@ -52,5 +54,5 @@ POST https://{endpoint}/openai/deployments/{deployment-id}/completions?api-versi
   - openai 同様
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTk5NDY3NF19
+eyJoaXN0b3J5IjpbLTM2NjI2ODY2MSwxNDk1OTk0Njc0XX0=
 -->
