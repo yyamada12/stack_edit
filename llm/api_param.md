@@ -35,6 +35,21 @@ post  https://api.openai.com/v1/chat/completions
 	- model 名を指定する
 - max_tokens (deprecated), max_completion_tokens
 	- 出力させるtoken の最大値を指定する。基本は、モデルの最大値をそのまま指定するのがよさそう
+
+
+
+### azure の場合
+
+https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#completions
+
+POST https://{endpoint}/openai/deployments/{deployment-id}/completions?api-version=2024-06-01
+
+`endpoint`, `deployment-id` は Azure OpenAI Studio で設定する必要がある
+
+- prompt
+  - messages が azureだと prompt になる
+    - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTIwMzAwNywxMTMyMTA4NDkxXX0=
+eyJoaXN0b3J5IjpbMTk0NDUwMzE4NCwxOTM1MjAzMDA3LDExMz
+IxMDg0OTFdfQ==
 -->
