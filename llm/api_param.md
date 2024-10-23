@@ -12,11 +12,13 @@ API ごとに指定できるモデル一覧: https://platform.openai.com/docs/mo
 専用の tokenizer が利用されている
 https://platform.openai.com/tokenizer
 
-modelによって利用する encoding が変わっていて、よってtoken数が変わってくる模様。
+modelによって利用する encoding が変わっていて、それによってtoken数が変わってくる模様。
+cl100k_base とか o200k_base とかがある
 
-cl100k_base とか 
+プログラムから計測する際は、tiktoken というライブラリを利用するとよい。 encoding もtiktoken で調べられる
 https://github.com/openai/tiktoken?tab=readme-ov-file
 
+参考: https://zenn.dev/microsoft/articles/3438cf410cc0b5
 
 ### chat completion
 
@@ -34,5 +36,5 @@ post  https://api.openai.com/v1/chat/completions
 	- 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgxMzg2NzMwLDExMzIxMDg0OTFdfQ==
+eyJoaXN0b3J5IjpbLTE5OTQ3ODA4MzgsMTEzMjEwODQ5MV19
 -->
