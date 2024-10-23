@@ -65,14 +65,21 @@ from openai import AzureOpenAI
 ## Anthropic
 
 モデル一覧: https://docs.anthropic.com/en/docs/about-claude/models
+料金: https://www.anthropic.com/pricing
 
 2024/10 時点で、 tokenizer はちゃんと公開されてないっぽい
-token_count も 
+token_count も python ライブラリにあるが、以下のコメントがついている
+```
+Note that this is only accurate for older models, e.g. `claude-2.1`. For newer models this can only be used as a _very_ rough estimate, instead you should rely on the `usage` property in the response for exact counts.
+```
 
+### messages
+OpenAI の chat.completions に対応するもの
 https://docs.anthropic.com/en/api/messages
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxMDIyMDE0LC0xNTM1ODI4NTg1LDE0OT
-U5OTQ2NzRdfQ==
+eyJoaXN0b3J5IjpbMTg4NzI3NDAxNSwtMTUzNTgyODU4NSwxND
+k1OTk0Njc0XX0=
 -->
