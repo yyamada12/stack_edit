@@ -34,7 +34,7 @@ post  https://api.openai.com/v1/chat/completions
 - model
 	- model 名を指定する
 - max_tokens (deprecated), max_completion_tokens
-	- 
+	- 出力させるtoken の最大値を指定する。基本は、モデルの最大値をそのまま指定するのがよさそう
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI4MjI2NywxMTMyMTA4NDkxXX0=
+eyJoaXN0b3J5IjpbMTkzNTIwMzAwNywxMTMyMTA4NDkxXX0=
 -->
