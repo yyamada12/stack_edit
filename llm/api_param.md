@@ -8,6 +8,7 @@ API ごとに指定できるモデル一覧: https://platform.openai.com/docs/mo
 料金: https://openai.com/ja-JP/api/pricing/
 
 
+
 ### chat completion
 
 https://platform.openai.com/docs/api-reference/chat/create
@@ -24,5 +25,5 @@ post  https://api.openai.com/v1/chat/completions
 	- 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjEwODQ5MV19
+eyJoaXN0b3J5IjpbLTkyMTk1NjE2NywxMTMyMTA4NDkxXX0=
 -->
