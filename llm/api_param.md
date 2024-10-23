@@ -3,12 +3,17 @@
 
 ## OpenAI
 
+API ごとに指定できるモデル一覧: https://platform.openai.com/docs/models/model-endpoint-compatibility
+モデル一覧: https://platform.openai.com/docs/models
+料金: https://openai.com/ja-JP/api/pricing/
+
 
 ### chat completion
 
 https://platform.openai.com/docs/api-reference/chat/create
 
 post  https://api.openai.com/v1/chat/completions
+
 
 - messages
 	- prompt を指定する
@@ -19,5 +24,5 @@ post  https://api.openai.com/v1/chat/completions
 	- 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY3MjcwN119
+eyJoaXN0b3J5IjpbMTEzMjEwODQ5MV19
 -->
