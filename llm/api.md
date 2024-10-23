@@ -66,10 +66,13 @@ from openai import AzureOpenAI
 
 モデル一覧: https://docs.anthropic.com/en/docs/about-claude/models
 
+2024/10 時点で、 tokenizer はちゃんと公開されてないっぽい
+token_count も 
 
 https://docs.anthropic.com/en/api/messages
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU4Mjg1ODUsMTQ5NTk5NDY3NF19
+eyJoaXN0b3J5IjpbOTcxMDIyMDE0LC0xNTM1ODI4NTg1LDE0OT
+U5OTQ2NzRdfQ==
 -->
