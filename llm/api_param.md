@@ -7,6 +7,15 @@ API ごとに指定できるモデル一覧: https://platform.openai.com/docs/mo
 モデル一覧: https://platform.openai.com/docs/models
 料金: https://openai.com/ja-JP/api/pricing/
 
+### token について
+
+専用の tokenizer が利用されている
+https://platform.openai.com/tokenizer
+
+modelによって利用する encoding が変わっていて、よってtoken数が変わってくる模様。
+
+cl100k_base とか 
+https://github.com/openai/tiktoken?tab=readme-ov-file
 
 
 ### chat completion
@@ -25,5 +34,5 @@ post  https://api.openai.com/v1/chat/completions
 	- 
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTk1NjE2NywxMTMyMTA4NDkxXX0=
+eyJoaXN0b3J5IjpbNTgxMzg2NzMwLDExMzIxMDg0OTFdfQ==
 -->
