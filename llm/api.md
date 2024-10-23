@@ -65,7 +65,7 @@ from openai import AzureOpenAI
 ## Anthropic
 
 モデル一覧: https://docs.anthropic.com/en/docs/about-claude/models
-料金: https://www.anthropic.com/pricing
+料金: https://www.anthropic.com/pricing#anthropic-api
 
 2024/10 時点で、 tokenizer はちゃんと公開されてないっぽい
 token_count も python ライブラリにあるが、以下のコメントがついている
@@ -78,8 +78,17 @@ OpenAI の chat.completions に対応するもの
 https://docs.anthropic.com/en/api/messages
 
 
+- messages
+	- prompt を指定する
+	- 過去の会話の流れの形式で、配列で指定する
+	- system, user などの発言を指定できる
+- model
+	- model 名を指定する
+- max_tokens (deprecated), max_completion_tokens
+	- 出力させるtoken の最大値を指定する。基本は、モデルの最大値をそのまま指定するのがよさそう
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzI3NDAxNSwtMTUzNTgyODU4NSwxND
-k1OTk0Njc0XX0=
+eyJoaXN0b3J5IjpbNzU0OTQ3MTE2LC0xNTM1ODI4NTg1LDE0OT
+U5OTQ2NzRdfQ==
 -->
