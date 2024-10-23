@@ -48,8 +48,10 @@ POST https://{endpoint}/openai/deployments/{deployment-id}/completions?api-versi
 
 - prompt
   - messages が azureだと prompt になる
-    - 
+- max_tokens
+  - openai 同様
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDUwMzE4NCwxOTM1MjAzMDA3LDExMz
+eyJoaXN0b3J5IjpbMTQ5NTk5NDY3NCwxOTM1MjAzMDA3LDExMz
 IxMDg0OTFdfQ==
 -->
