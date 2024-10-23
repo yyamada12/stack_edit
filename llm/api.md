@@ -52,8 +52,14 @@ POST https://{endpoint}/openai/deployments/{deployment-id}/chat/completions?api-
 
 
 ### python SDK
+https://github.com/openai/openai-python/tree/main
 
+azure も対応している
+```
+from openai import AzureOpenAI
+```
 
+基本的にはAPI呼び出す時に指定する
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjY3ODQ5OSwxNDk1OTk0Njc0XX0=
+eyJoaXN0b3J5IjpbMzI4MTc3NDMxLDE0OTU5OTQ2NzRdfQ==
 -->
