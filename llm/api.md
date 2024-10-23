@@ -59,7 +59,17 @@ azure も対応している
 from openai import AzureOpenAI
 ```
 
-基本的にはAPI呼び出す時に指定する
+基本的にはAPI呼び出す時に指定するパラメータを引数に渡すだけ
+
+
+## Anthropic
+
+モデル一覧: https://docs.anthropic.com/en/docs/about-claude/models
+
+
+https://docs.anthropic.com/en/api/messages
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MTc3NDMxLDE0OTU5OTQ2NzRdfQ==
+eyJoaXN0b3J5IjpbLTE1MzU4Mjg1ODUsMTQ5NTk5NDY3NF19
 -->
