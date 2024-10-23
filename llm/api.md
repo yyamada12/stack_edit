@@ -42,17 +42,18 @@ post  https://api.openai.com/v1/chat/completions
 
 ### azure の場合
 
-https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#completions
+https://learn.microsoft.com/en-us/azure/ai-services/openai/reference#chat-completions
 
-POST https://{endpoint}/openai/deployments/{deployment-id}/completions?api-version=2024-06-01
+POST https://{endpoint}/openai/deployments/{deployment-id}/chat/completions?api-version=2024-06-01
 
 `endpoint`, `deployment-id` は Azure OpenAI Studio で設定する必要がある
 
-- prompt
-  - messages が azureだと prompt になる
-- max_tokens
-  - openai 同様
+指定できるパラメータは基本的には同じになる
+
+
+### python SDK
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjI2ODY2MSwxNDk1OTk0Njc0XX0=
+eyJoaXN0b3J5IjpbMTI2NjY3ODQ5OSwxNDk1OTk0Njc0XX0=
 -->
