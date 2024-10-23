@@ -33,8 +33,8 @@ post  https://api.openai.com/v1/chat/completions
 	- system, user などの発言を指定できる
 - model
 	- model 名を指定する
+- max_tokens (deprecated), max_completion_tokens
 	- 
-- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ3ODA4MzgsMTEzMjEwODQ5MV19
+eyJoaXN0b3J5IjpbLTE1MTI4MjI2NywxMTMyMTA4NDkxXX0=
 -->
