@@ -4,7 +4,13 @@
 ## OpenAI
 
 
+### chat completion
+
+https://platform.openai.com/docs/api-reference/chat/create
+
+post  https://api.openai.com/v1/chat/completions
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODg4OTUxMV19
+eyJoaXN0b3J5IjpbLTE2NTQ4ODg3NDddfQ==
 -->
