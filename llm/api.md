@@ -86,10 +86,10 @@ https://docs.anthropic.com/en/api/messages
 	- model 名を指定する
 - max_tokens
 	- 出力させるtoken の最大値を指定する。基本は、モデルの最大値をそのまま指定するのがよさそう
-	- open ai の max_tokens は deprecated になって max_completion_tokensになったが、
+	- open ai の max_tokens は deprecated になって max_completion_tokensになったが、anthropic はそのまま。。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDMyMDg4Niw3NTQ5NDcxMTYsLTE1Mz
+eyJoaXN0b3J5IjpbLTUxOTYwNjM1OCw3NTQ5NDcxMTYsLTE1Mz
 U4Mjg1ODUsMTQ5NTk5NDY3NF19
 -->
