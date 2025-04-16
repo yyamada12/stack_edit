@@ -7,8 +7,9 @@ python は linter, formatter 系が色々あり、組み合わせることが多
 - mypy
 - black
 - isort
-- autof
+- autoflake 
 
+etc
 
 
 ## vscode で保存時にformatさせたい
@@ -34,7 +35,6 @@ settings.json に以下のような設定を入れると、 autoflake + black �
 ```
 
 
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mjc3ODY4MV19
+eyJoaXN0b3J5IjpbMTExNzcxODAzMl19
 -->
