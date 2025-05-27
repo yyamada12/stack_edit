@@ -7,8 +7,8 @@ firestore からの document の取得時に、  `The service is temporarily una
 大体これっぽい。
 https://zenn.dev/kawabatas/articles/gcp-go-retry
 
-
+https://pkg.go.dev/cloud.google.com/go/firestore@v1.18.0/apiv1#Client
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODc1NDc2NF19
+eyJoaXN0b3J5IjpbLTk5MzM5MjIwMV19
 -->
